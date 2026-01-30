@@ -13,7 +13,7 @@ public class MazeGenerator : MonoBehaviour
     private Vector3 _exitPosition;
     private string _exitWall;
     
-    [SerializeField] private int _hideoutRoomSize = 1; // Size of hiding rooms (e.g., 3x3)
+    [SerializeField] private int _hideoutRoomSize = 3; // Size of hiding rooms (e.g., 3x3)
     [SerializeField] private int _numberOfHideouts = 5; // Number of hiding rooms to create
     [SerializeField] private int _minDistanceBetweenHideouts = 6; // Minimum distance between hideouts
 
