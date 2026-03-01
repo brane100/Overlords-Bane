@@ -1,6 +1,9 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
 --- !u!1 &2194904466667014407
 GameObject:
   m_ObjectHideFlags: 0
@@ -159,14 +162,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InvisibleWallTrigger
   controller: {fileID: 0}
 --- !u!1001 &3943752114106808034
+<<<<<<< HEAD
 =======
 --- !u!1001 &4801999380323828126
 >>>>>>> master
+=======
+>>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<< HEAD
 <<<<<<< HEAD
     m_TransformParent: {fileID: 934664033158893376}
 =======
@@ -237,6 +244,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8093280802333704954}
 >>>>>>> master
+=======
+    m_TransformParent: {fileID: 934664033158893376}
+>>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
     m_Modifications:
     - target: {fileID: 3034643417380308782, guid: 44e0cc4c9daa21c4ebdebdfa9f7b8e08, type: 3}
       propertyPath: _backWall
@@ -255,6 +265,9 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
     - target: {fileID: 5833128282412193091, guid: 44e0cc4c9daa21c4ebdebdfa9f7b8e08, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.62
@@ -263,19 +276,28 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.073
       objectReference: {fileID: 0}
+<<<<<<< HEAD
 =======
 >>>>>>> master
+=======
+>>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
     - target: {fileID: 6231467197374643230, guid: 44e0cc4c9daa21c4ebdebdfa9f7b8e08, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 40c5042bfef9bd841b40ad7f277c3d46, type: 2}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
     - target: {fileID: 7354589072750414324, guid: 44e0cc4c9daa21c4ebdebdfa9f7b8e08, type: 3}
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
 =======
 >>>>>>> master
+=======
+>>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
     - target: {fileID: 7526872495701640375, guid: 44e0cc4c9daa21c4ebdebdfa9f7b8e08, type: 3}
       propertyPath: m_LocalPosition.x
       value: 72.02
@@ -327,6 +349,9 @@ PrefabInstance:
     - {fileID: 1612851958146672654, guid: 44e0cc4c9daa21c4ebdebdfa9f7b8e08, type: 3}
     - {fileID: 1526704240411149123, guid: 44e0cc4c9daa21c4ebdebdfa9f7b8e08, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 7526872495701640375, guid: 44e0cc4c9daa21c4ebdebdfa9f7b8e08, type: 3}
       insertIndex: -1
@@ -402,6 +427,7 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 3671908128268469092, guid: d8acde01c7184944e99eaa4215b8d78e, type: 3}
   m_PrefabInstance: {fileID: 4471418023710477348}
+<<<<<<< HEAD
 =======
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -411,4 +437,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7526872495701640375, guid: 44e0cc4c9daa21c4ebdebdfa9f7b8e08, type: 3}
   m_PrefabInstance: {fileID: 8992901457101096973}
 >>>>>>> master
+=======
+>>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
   m_PrefabAsset: {fileID: 0}

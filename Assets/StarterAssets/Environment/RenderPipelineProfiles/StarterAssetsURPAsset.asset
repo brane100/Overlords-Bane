@@ -12,8 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf2edee5c58d82540a51f03df9d42094, type: 3}
   m_Name: StarterAssetsURPAsset
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   k_AssetVersion: 13
   k_AssetPreviousVersion: 13
+=======
+  k_AssetVersion: 12
+  k_AssetPreviousVersion: 12
+>>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
   m_RendererType: 1
   m_RendererData: {fileID: 0}
   m_RendererDataList:
@@ -53,7 +58,10 @@ MonoBehaviour:
   m_AdditionalLightsShadowResolutionTierHigh: 1024
   m_ReflectionProbeBlending: 0
   m_ReflectionProbeBoxProjection: 0
+<<<<<<< HEAD
   m_ReflectionProbeAtlas: 1
+=======
+>>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
   m_ShadowDistance: 50
   m_ShadowCascadeCount: 1
   m_Cascade2Split: 0.25
@@ -128,6 +136,7 @@ MonoBehaviour:
   m_PrefilterSoftShadowsQualityHigh: 0
   m_PrefilterSoftShadows: 0
   m_PrefilterScreenCoord: 0
+<<<<<<< HEAD
   m_PrefilterScreenSpaceIrradiance: 0
   m_PrefilterNativeRenderPass: 0
   m_PrefilterUseLegacyLightmaps: 0
@@ -136,6 +145,10 @@ MonoBehaviour:
   m_PrefilterReflectionProbeBlending: 0
   m_PrefilterReflectionProbeBoxProjection: 0
   m_PrefilterReflectionProbeAtlas: 0
+=======
+  m_PrefilterNativeRenderPass: 0
+  m_PrefilterUseLegacyLightmaps: 0
+>>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
   m_ShaderVariantLogLevel: 0
   m_ShadowCascades: 0
   m_Textures:

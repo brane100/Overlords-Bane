@@ -1,3 +1,7 @@
 rep "Building maze/Building maze@6872756932876@cloud"
   path "/"
+<<<<<<< HEAD
     smartbranch "/main" changeset "8"
+=======
+    smartbranch "/main" changeset "9"
+>>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)

@@ -1,6 +1,7 @@
 {
   "dependencies": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "com.unity.ai.navigation": "2.0.10",
     "com.unity.burst": "1.8.28",
     "com.unity.cinemachine": "2.10.5",
@@ -29,6 +30,8 @@
     "com.unity.modules.accessibility": "1.0.0",
     "com.unity.modules.adaptiveperformance": "1.0.0",
 =======
+=======
+>>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
     "com.unity.ai.navigation": "2.0.9",
     "com.unity.burst": "1.8.25",
     "com.unity.cinemachine": "2.10.4",
@@ -54,7 +57,10 @@
     "com.unity.ugui": "2.0.0",
     "com.unity.visualscripting": "1.9.8",
     "com.unity.modules.accessibility": "1.0.0",
+<<<<<<< HEAD
 >>>>>>> master
+=======
+>>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
     "com.unity.modules.animation": "1.0.0",
@@ -84,9 +90,12 @@
     "com.unity.modules.unitywebrequesttexture": "1.0.0",
     "com.unity.modules.unitywebrequestwww": "1.0.0",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "com.unity.modules.vectorgraphics": "1.0.0",
 =======
 >>>>>>> master
+=======
+>>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
     "com.unity.modules.vehicles": "1.0.0",
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.vr": "1.0.0",
