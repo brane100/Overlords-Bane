@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 *.unity filter=lfs diff=lfs merge=lfs -text
 
 # Textures
@@ -27,7 +26,6 @@
 
 # Asset Store packages
 *.unitypackage filter=lfs diff=lfs merge=lfs -text
-=======
 # Unity .gitattributes Template
 # Source: https://github.com/gitattributes/gitattributes/blob/master/Unity.gitattributes
 # Last synced: 2026-02-04
@@ -199,4 +197,3 @@ Packages/packages-lock.json linguist-generated
 
 # Exceptions for .asset files such as lightning pre-baking
 LightingData.asset     binary
->>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
