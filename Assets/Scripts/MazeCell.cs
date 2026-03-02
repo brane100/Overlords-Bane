@@ -8,6 +8,19 @@ public class MazeCell : MonoBehaviour
     [SerializeField] private GameObject _backWall;
     [SerializeField] private GameObject _unvisitedBlock;
 
+<<<<<<< HEAD
+=======
+    public int X { get; private set; }
+    public int Z { get; private set; }
+
+    public void Init(int x, int z)
+    {
+        X = x;
+        Z = z;
+    }
+
+
+>>>>>>> 6154507 (improve logic and materials)
     public bool IsVisited { get; private set; }
 
     public void Visit()
@@ -31,5 +44,24 @@ public class MazeCell : MonoBehaviour
     public void ClearBackWall()
     {
         _backWall.SetActive(false);
+<<<<<<< HEAD
     }   
 }
+=======
+    }
+
+    public void ApplyWallOwnership(bool showLeft, bool showBack, bool showRight, bool showFront)
+    {
+        _leftWall.SetActive(showLeft);
+        _backWall.SetActive(showBack);
+        _rightWall.SetActive(showRight);
+        _frontWall.SetActive(showFront);
+    }
+
+    public bool IsLeftWallActive()  => _leftWall.activeSelf;
+public bool IsRightWallActive() => _rightWall.activeSelf;
+public bool IsFrontWallActive() => _frontWall.activeSelf;
+public bool IsBackWallActive()  => _backWall.activeSelf;
+
+}
+>>>>>>> 6154507 (improve logic and materials)

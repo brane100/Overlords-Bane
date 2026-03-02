@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 rep "Building maze/Building maze@6872756932876@cloud"
   path "/"
 <<<<<<< HEAD
@@ -5,3 +6,8 @@ rep "Building maze/Building maze@6872756932876@cloud"
 =======
     smartbranch "/main" changeset "9"
 >>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
+=======
+repository "Building maze/Building maze@6872756932876@cloud"
+  path "/"
+    smartbranch "/main" changeset "10"
+>>>>>>> 6154507 (improve logic and materials)

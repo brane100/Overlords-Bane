@@ -13,12 +13,17 @@ MonoBehaviour:
   m_Name: PC_RPAsset
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
+<<<<<<< HEAD
   k_AssetVersion: 13
   k_AssetPreviousVersion: 13
 =======
   k_AssetVersion: 12
   k_AssetPreviousVersion: 12
 >>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
+=======
+  k_AssetVersion: 13
+  k_AssetPreviousVersion: 13
+>>>>>>> 6154507 (improve logic and materials)
   m_RendererType: 1
   m_RendererData: {fileID: 0}
   m_RendererDataList:
@@ -59,9 +64,13 @@ MonoBehaviour:
   m_ReflectionProbeBlending: 1
   m_ReflectionProbeBoxProjection: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_ReflectionProbeAtlas: 1
 =======
 >>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
+=======
+  m_ReflectionProbeAtlas: 1
+>>>>>>> 6154507 (improve logic and materials)
   m_ShadowDistance: 50
   m_ShadowCascadeCount: 4
   m_Cascade2Split: 0.25
@@ -88,17 +97,24 @@ MonoBehaviour:
   m_ColorGradingMode: 0
   m_ColorGradingLutSize: 32
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_AllowPostProcessAlphaOutput: 0
 =======
 >>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
+=======
+  m_AllowPostProcessAlphaOutput: 0
+>>>>>>> 6154507 (improve logic and materials)
   m_UseFastSRGBLinearConversion: 0
   m_SupportDataDrivenLensFlare: 1
   m_SupportScreenSpaceLensFlare: 1
   m_GPUResidentDrawerMode: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   m_UseLegacyLightmaps: 0
 >>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
+=======
+>>>>>>> 6154507 (improve logic and materials)
   m_SmallMeshScreenPercentage: 0
   m_GPUResidentDrawerEnableOcclusionCullingInCameras: 0
   m_ShadowType: 1
@@ -126,9 +142,13 @@ MonoBehaviour:
   m_PrefilterWriteRenderingLayers: 0
   m_PrefilterHDROutput: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_PrefilterAlphaOutput: 0
 =======
 >>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
+=======
+  m_PrefilterAlphaOutput: 0
+>>>>>>> 6154507 (improve logic and materials)
   m_PrefilterSSAODepthNormals: 0
   m_PrefilterSSAOSourceDepthLow: 1
   m_PrefilterSSAOSourceDepthMedium: 1
@@ -147,6 +167,9 @@ MonoBehaviour:
   m_PrefilterSoftShadows: 0
   m_PrefilterScreenCoord: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6154507 (improve logic and materials)
   m_PrefilterScreenSpaceIrradiance: 0
   m_PrefilterNativeRenderPass: 1
   m_PrefilterUseLegacyLightmaps: 0
@@ -155,10 +178,13 @@ MonoBehaviour:
   m_PrefilterReflectionProbeBlending: 0
   m_PrefilterReflectionProbeBoxProjection: 0
   m_PrefilterReflectionProbeAtlas: 0
+<<<<<<< HEAD
 =======
   m_PrefilterNativeRenderPass: 1
   m_PrefilterUseLegacyLightmaps: 0
 >>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
+=======
+>>>>>>> 6154507 (improve logic and materials)
   m_ShaderVariantLogLevel: 0
   m_ShadowCascades: 0
   m_Textures:

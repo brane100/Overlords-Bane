@@ -12,7 +12,10 @@ public class MazeGenerator : MonoBehaviour
     private MazeCell[,] _mazeGrid;
     private Vector3 _exitPosition;
     private string _exitWall;
+<<<<<<< HEAD
     private GameObject _mazeParent; // Parent object to hold all maze cells
+=======
+>>>>>>> 6154507 (improve logic and materials)
     
     [SerializeField] private int _hideoutRoomSize = 3; // Size of hiding rooms (e.g., 3x3)
     [SerializeField] private int _numberOfHideouts = 5; // Number of hiding rooms to create
@@ -25,18 +28,25 @@ public class MazeGenerator : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+<<<<<<< HEAD
         // Create a parent GameObject to hold all maze cells
         _mazeParent = new GameObject("Maze_" + _mazeWidth + "x" + _mazeDepth);
         _mazeParent.transform.SetParent(mazeRoot);
         _mazeParent.transform.localPosition = Vector3.zero;
 
+=======
+>>>>>>> 6154507 (improve logic and materials)
         _mazeGrid = new MazeCell[_mazeWidth, _mazeDepth];
         Vector3 cellSize = _mazeCellPrefab.transform.localScale;
         for (int x = 0; x < _mazeWidth; x++)
         {
             for (int z = 0; z < _mazeDepth; z++)
             {
+<<<<<<< HEAD
                 _mazeGrid[x, z] = Instantiate(_mazeCellPrefab, new Vector3(x * cellSize.x, 0, z * cellSize.z), Quaternion.identity, _mazeParent.transform);
+=======
+                _mazeGrid[x, z] = Instantiate(_mazeCellPrefab, new Vector3(x * cellSize.x, 0, z * cellSize.z), Quaternion.identity, mazeRoot);
+>>>>>>> 6154507 (improve logic and materials)
             }
         }
 

@@ -1,6 +1,7 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 guid: 2d6ebd8005af76f42ab17d67efa800f2
 =======
 guid: 8aff26bb1258f7b4494af0a4a8443fe2
@@ -8,6 +9,9 @@ guid: 8aff26bb1258f7b4494af0a4a8443fe2
 =======
 guid: 2d6ebd8005af76f42ab17d67efa800f2
 >>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
+=======
+guid: 2d6ebd8005af76f42ab17d67efa800f2
+>>>>>>> 6154507 (improve logic and materials)
 PrefabImporter:
   externalObjects: {}
   userData: 

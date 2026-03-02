@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Building maze-Building maze
 <<<<<<< HEAD
 24c25da6-cafe-4f32-8cdf-6ed056af2130
@@ -5,3 +6,8 @@ Building maze-Building maze
 c4794ecc-e586-4110-b121-5785483e2766
 Standard
 >>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
+=======
+Building maze_Building maze
+842f5eef-2ab0-4e1c-b93a-8221d3f817ea
+Standard
+>>>>>>> 6154507 (improve logic and materials)

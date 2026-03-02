@@ -41,10 +41,14 @@ Material:
     - _BaseMap:
         m_Texture: {fileID: 2800000, guid: 7dd79d4405476bd43ae1501324fda314, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
         m_Scale: {x: 2, y: 2}
 =======
         m_Scale: {x: 1, y: 1}
 >>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
+=======
+        m_Scale: {x: 2, y: 2}
+>>>>>>> 6154507 (improve logic and materials)
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 0}
@@ -69,10 +73,14 @@ Material:
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: 7dd79d4405476bd43ae1501324fda314, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
         m_Scale: {x: 2, y: 2}
 =======
         m_Scale: {x: 1, y: 1}
 >>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
+=======
+        m_Scale: {x: 2, y: 2}
+>>>>>>> 6154507 (improve logic and materials)
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
