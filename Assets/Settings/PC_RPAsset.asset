@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   k_AssetVersion: 13
   k_AssetPreviousVersion: 13
 =======
@@ -24,6 +25,10 @@ MonoBehaviour:
   k_AssetVersion: 13
   k_AssetPreviousVersion: 13
 >>>>>>> 6154507 (improve logic and materials)
+=======
+  k_AssetVersion: 13
+  k_AssetPreviousVersion: 13
+>>>>>>> 615f63b (adding multiplayer functionality)
   m_RendererType: 1
   m_RendererData: {fileID: 0}
   m_RendererDataList:
@@ -65,12 +70,16 @@ MonoBehaviour:
   m_ReflectionProbeBoxProjection: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_ReflectionProbeAtlas: 1
 =======
 >>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
 =======
   m_ReflectionProbeAtlas: 1
 >>>>>>> 6154507 (improve logic and materials)
+=======
+  m_ReflectionProbeAtlas: 1
+>>>>>>> 615f63b (adding multiplayer functionality)
   m_ShadowDistance: 50
   m_ShadowCascadeCount: 4
   m_Cascade2Split: 0.25
@@ -98,16 +107,21 @@ MonoBehaviour:
   m_ColorGradingLutSize: 32
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_AllowPostProcessAlphaOutput: 0
 =======
 >>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
 =======
   m_AllowPostProcessAlphaOutput: 0
 >>>>>>> 6154507 (improve logic and materials)
+=======
+  m_AllowPostProcessAlphaOutput: 0
+>>>>>>> 615f63b (adding multiplayer functionality)
   m_UseFastSRGBLinearConversion: 0
   m_SupportDataDrivenLensFlare: 1
   m_SupportScreenSpaceLensFlare: 1
   m_GPUResidentDrawerMode: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -115,6 +129,8 @@ MonoBehaviour:
 >>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
 =======
 >>>>>>> 6154507 (improve logic and materials)
+=======
+>>>>>>> 615f63b (adding multiplayer functionality)
   m_SmallMeshScreenPercentage: 0
   m_GPUResidentDrawerEnableOcclusionCullingInCameras: 0
   m_ShadowType: 1
@@ -143,12 +159,16 @@ MonoBehaviour:
   m_PrefilterHDROutput: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_PrefilterAlphaOutput: 0
 =======
 >>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
 =======
   m_PrefilterAlphaOutput: 0
 >>>>>>> 6154507 (improve logic and materials)
+=======
+  m_PrefilterAlphaOutput: 0
+>>>>>>> 615f63b (adding multiplayer functionality)
   m_PrefilterSSAODepthNormals: 0
   m_PrefilterSSAOSourceDepthLow: 1
   m_PrefilterSSAOSourceDepthMedium: 1
@@ -168,8 +188,11 @@ MonoBehaviour:
   m_PrefilterScreenCoord: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6154507 (improve logic and materials)
+=======
+>>>>>>> 615f63b (adding multiplayer functionality)
   m_PrefilterScreenSpaceIrradiance: 0
   m_PrefilterNativeRenderPass: 1
   m_PrefilterUseLegacyLightmaps: 0
@@ -179,12 +202,15 @@ MonoBehaviour:
   m_PrefilterReflectionProbeBoxProjection: 0
   m_PrefilterReflectionProbeAtlas: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   m_PrefilterNativeRenderPass: 1
   m_PrefilterUseLegacyLightmaps: 0
 >>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
 =======
 >>>>>>> 6154507 (improve logic and materials)
+=======
+>>>>>>> 615f63b (adding multiplayer functionality)
   m_ShaderVariantLogLevel: 0
   m_ShadowCascades: 0
   m_Textures:

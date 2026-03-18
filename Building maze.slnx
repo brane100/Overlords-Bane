@@ -1,5 +1,8 @@
 ﻿<Solution>
   <Project Path="Assembly-CSharp.csproj" />
+<<<<<<< HEAD
   <Project Path="Unity.PackageValidationSuite.Editor.csproj" />
   <Project Path="Unity.PackageValidationSuite.Editor.Extension.csproj" />
+=======
+>>>>>>> 615f63b (adding multiplayer functionality)
 </Solution>

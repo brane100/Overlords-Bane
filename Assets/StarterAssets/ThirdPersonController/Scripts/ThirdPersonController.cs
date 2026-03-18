@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 ﻿ using UnityEngine;
+=======
+﻿using UnityEngine;
+using Unity.Netcode;
+using Cinemachine;
+>>>>>>> 615f63b (adding multiplayer functionality)
 #if ENABLE_INPUT_SYSTEM 
 using UnityEngine.InputSystem;
 #endif
@@ -12,7 +18,11 @@ namespace StarterAssets
 #if ENABLE_INPUT_SYSTEM 
     [RequireComponent(typeof(PlayerInput))]
 #endif
+<<<<<<< HEAD
     public class ThirdPersonController : MonoBehaviour
+=======
+    public class ThirdPersonController : NetworkBehaviour
+>>>>>>> 615f63b (adding multiplayer functionality)
     {
         [Header("Player")]
         [Tooltip("Move speed of the character in m/s")]
@@ -117,7 +127,11 @@ namespace StarterAssets
 #if ENABLE_INPUT_SYSTEM
                 return _playerInput.currentControlScheme == "KeyboardMouse";
 #else
+<<<<<<< HEAD
 				return false;
+=======
+                return false;
+>>>>>>> 615f63b (adding multiplayer functionality)
 #endif
             }
         }
@@ -132,6 +146,7 @@ namespace StarterAssets
             }
         }
 
+<<<<<<< HEAD
         private void Start()
         {
             _cinemachineTargetYaw = CinemachineCameraTarget.transform.rotation.eulerAngles.y;
@@ -143,6 +158,19 @@ namespace StarterAssets
             _playerInput = GetComponent<PlayerInput>();
 #else
 			Debug.LogError( "Starter Assets package is missing dependencies. Please use Tools/Starter Assets/Reinstall Dependencies to fix it");
+=======
+        public override void OnNetworkSpawn()
+        {
+            _cinemachineTargetYaw = CinemachineCameraTarget.transform.rotation.eulerAngles.y;
+
+            _hasAnimator = TryGetComponent(out _animator);
+            _controller = GetComponent<CharacterController>();
+            _input = GetComponent<StarterAssetsInputs>();
+#if ENABLE_INPUT_SYSTEM
+            _playerInput = GetComponent<PlayerInput>();
+#else
+            Debug.LogError("Starter Assets package is missing dependencies. Please use Tools/Starter Assets/Reinstall Dependencies to fix it");
+>>>>>>> 615f63b (adding multiplayer functionality)
 #endif
 
             AssignAnimationIDs();
@@ -150,10 +178,32 @@ namespace StarterAssets
             // reset our timeouts on start
             _jumpTimeoutDelta = JumpTimeout;
             _fallTimeoutDelta = FallTimeout;
+<<<<<<< HEAD
+=======
+
+            if (!IsOwner)
+            {
+                CinemachineCameraTarget.SetActive(false);
+                GetComponentInChildren<CinemachineBrain>().enabled = false;
+            }
+        }
+
+        private void Start()
+        {
+            
+>>>>>>> 615f63b (adding multiplayer functionality)
         }
 
         private void Update()
         {
+<<<<<<< HEAD
+=======
+            if (!IsOwner)
+            {
+                return;
+            }
+
+>>>>>>> 615f63b (adding multiplayer functionality)
             _hasAnimator = TryGetComponent(out _animator);
 
             JumpAndGravity();

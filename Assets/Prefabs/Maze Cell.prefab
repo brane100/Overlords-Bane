@@ -30,6 +30,7 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: 0, y: 0, z: 0.15}
   m_LocalScale: {x: 0.3, y: 1, z: 1}
 =======
@@ -44,6 +45,10 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0.15}
   m_LocalScale: {x: 0.3, y: 1, z: 1}
 >>>>>>> 6154507 (improve logic and materials)
+=======
+  m_LocalPosition: {x: 0, y: 0, z: 0.15}
+  m_LocalScale: {x: 0.3, y: 1, z: 1}
+>>>>>>> 615f63b (adding multiplayer functionality)
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 972837035086921970}
@@ -84,6 +89,7 @@ MeshRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 2100000, guid: 794c8927f271e3b4eb70c6b779a4e425, type: 2}
 =======
   - {fileID: 2100000, guid: 385860efacc3a094eb9ed7e7a7d0a8ef, type: 2}
@@ -94,6 +100,9 @@ MeshRenderer:
 =======
   - {fileID: 2100000, guid: 794c8927f271e3b4eb70c6b779a4e425, type: 2}
 >>>>>>> 6154507 (improve logic and materials)
+=======
+  - {fileID: 2100000, guid: 794c8927f271e3b4eb70c6b779a4e425, type: 2}
+>>>>>>> 615f63b (adding multiplayer functionality)
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -254,6 +263,7 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: 0, y: 0, z: -0.15}
   m_LocalScale: {x: 0.3, y: 1, z: 1}
 =======
@@ -268,6 +278,10 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: -0.15}
   m_LocalScale: {x: 0.3, y: 1, z: 1}
 >>>>>>> 6154507 (improve logic and materials)
+=======
+  m_LocalPosition: {x: 0, y: 0, z: -0.15}
+  m_LocalScale: {x: 0.3, y: 1, z: 1}
+>>>>>>> 615f63b (adding multiplayer functionality)
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8377040908176493448}
@@ -308,6 +322,7 @@ MeshRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 2100000, guid: 794c8927f271e3b4eb70c6b779a4e425, type: 2}
 =======
   - {fileID: 2100000, guid: 385860efacc3a094eb9ed7e7a7d0a8ef, type: 2}
@@ -318,6 +333,9 @@ MeshRenderer:
 =======
   - {fileID: 2100000, guid: 794c8927f271e3b4eb70c6b779a4e425, type: 2}
 >>>>>>> 6154507 (improve logic and materials)
+=======
+  - {fileID: 2100000, guid: 794c8927f271e3b4eb70c6b779a4e425, type: 2}
+>>>>>>> 615f63b (adding multiplayer functionality)
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -370,6 +388,7 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: 0, y: 0, z: -0.15}
   m_LocalScale: {x: 0.3, y: 1, z: 1}
 =======
@@ -384,6 +403,10 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: -0.15}
   m_LocalScale: {x: 0.3, y: 1, z: 1}
 >>>>>>> 6154507 (improve logic and materials)
+=======
+  m_LocalPosition: {x: 0, y: 0, z: -0.15}
+  m_LocalScale: {x: 0.3, y: 1, z: 1}
+>>>>>>> 615f63b (adding multiplayer functionality)
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8571609276067086495}
@@ -424,6 +447,7 @@ MeshRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 2100000, guid: 794c8927f271e3b4eb70c6b779a4e425, type: 2}
 =======
   - {fileID: 2100000, guid: 385860efacc3a094eb9ed7e7a7d0a8ef, type: 2}
@@ -434,6 +458,9 @@ MeshRenderer:
 =======
   - {fileID: 2100000, guid: 794c8927f271e3b4eb70c6b779a4e425, type: 2}
 >>>>>>> 6154507 (improve logic and materials)
+=======
+  - {fileID: 2100000, guid: 794c8927f271e3b4eb70c6b779a4e425, type: 2}
+>>>>>>> 615f63b (adding multiplayer functionality)
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -541,6 +568,7 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalScale: {x: 0.7, y: 1, z: 0.7}
 =======
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -551,6 +579,9 @@ Transform:
 =======
   m_LocalScale: {x: 0.7, y: 1, z: 0.7}
 >>>>>>> 6154507 (improve logic and materials)
+=======
+  m_LocalScale: {x: 0.7, y: 1, z: 0.7}
+>>>>>>> 615f63b (adding multiplayer functionality)
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7240005416782838701}
@@ -591,6 +622,7 @@ MeshRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 2100000, guid: 794c8927f271e3b4eb70c6b779a4e425, type: 2}
 =======
   - {fileID: 2100000, guid: 385860efacc3a094eb9ed7e7a7d0a8ef, type: 2}
@@ -601,6 +633,9 @@ MeshRenderer:
 =======
   - {fileID: 2100000, guid: 794c8927f271e3b4eb70c6b779a4e425, type: 2}
 >>>>>>> 6154507 (improve logic and materials)
+=======
+  - {fileID: 2100000, guid: 794c8927f271e3b4eb70c6b779a4e425, type: 2}
+>>>>>>> 615f63b (adding multiplayer functionality)
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -653,6 +688,7 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: 0, y: 0, z: 0.15}
   m_LocalScale: {x: 0.3, y: 1, z: 1}
 =======
@@ -667,6 +703,10 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0.15}
   m_LocalScale: {x: 0.3, y: 1, z: 1}
 >>>>>>> 6154507 (improve logic and materials)
+=======
+  m_LocalPosition: {x: 0, y: 0, z: 0.15}
+  m_LocalScale: {x: 0.3, y: 1, z: 1}
+>>>>>>> 615f63b (adding multiplayer functionality)
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5833128282412193091}
@@ -707,6 +747,7 @@ MeshRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 2100000, guid: 794c8927f271e3b4eb70c6b779a4e425, type: 2}
 =======
   - {fileID: 2100000, guid: 385860efacc3a094eb9ed7e7a7d0a8ef, type: 2}
@@ -717,6 +758,9 @@ MeshRenderer:
 =======
   - {fileID: 2100000, guid: 794c8927f271e3b4eb70c6b779a4e425, type: 2}
 >>>>>>> 6154507 (improve logic and materials)
+=======
+  - {fileID: 2100000, guid: 794c8927f271e3b4eb70c6b779a4e425, type: 2}
+>>>>>>> 615f63b (adding multiplayer functionality)
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -822,6 +866,7 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: 0, y: 0, z: 0}
 =======
   m_LocalPosition: {x: 0, y: -0.12, z: 0}
@@ -832,6 +877,9 @@ Transform:
 =======
   m_LocalPosition: {x: 0, y: 0, z: 0}
 >>>>>>> 6154507 (improve logic and materials)
+=======
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+>>>>>>> 615f63b (adding multiplayer functionality)
   m_LocalScale: {x: 9, y: 6, z: 9}
   m_ConstrainProportionsScale: 0
   m_Children:

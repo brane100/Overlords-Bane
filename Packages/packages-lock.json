@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "version": "2.0.10",
 =======
       "version": "2.0.9",
@@ -14,6 +15,9 @@
 =======
       "version": "2.0.10",
 >>>>>>> 6154507 (improve logic and materials)
+=======
+      "version": "2.0.10",
+>>>>>>> 615f63b (adding multiplayer functionality)
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -25,6 +29,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "version": "1.8.28",
 =======
       "version": "1.8.25",
@@ -35,6 +40,9 @@
 =======
       "version": "1.8.28",
 >>>>>>> 6154507 (improve logic and materials)
+=======
+      "version": "1.8.28",
+>>>>>>> 615f63b (adding multiplayer functionality)
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -47,6 +55,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "version": "2.10.5",
 =======
       "version": "2.10.4",
@@ -57,6 +66,9 @@
 =======
       "version": "2.10.5",
 >>>>>>> 6154507 (improve logic and materials)
+=======
+      "version": "2.10.5",
+>>>>>>> 615f63b (adding multiplayer functionality)
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -68,6 +80,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "version": "2.11.3",
 =======
       "version": "2.10.0",
@@ -78,6 +91,9 @@
 =======
       "version": "2.11.3",
 >>>>>>> 6154507 (improve logic and materials)
+=======
+      "version": "2.11.3",
+>>>>>>> 615f63b (adding multiplayer functionality)
       "depth": 0,
       "source": "registry",
       "dependencies": {},
@@ -106,6 +122,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "version": "3.0.39",
 =======
       "version": "3.0.38",
@@ -116,6 +133,9 @@
 =======
       "version": "3.0.39",
 >>>>>>> 6154507 (improve logic and materials)
+=======
+      "version": "3.0.39",
+>>>>>>> 615f63b (adding multiplayer functionality)
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -127,13 +147,17 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6154507 (improve logic and materials)
+=======
+>>>>>>> 615f63b (adding multiplayer functionality)
       "version": "2.0.26",
       "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.test-framework": "1.1.33"
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -149,10 +173,13 @@
 >>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
 =======
 >>>>>>> 6154507 (improve logic and materials)
+=======
+>>>>>>> 615f63b (adding multiplayer functionality)
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.inputsystem": {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -166,6 +193,9 @@
 =======
       "version": "1.18.0",
 >>>>>>> 6154507 (improve logic and materials)
+=======
+      "version": "1.18.0",
+>>>>>>> 615f63b (adding multiplayer functionality)
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -177,6 +207,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "version": "1.3.3",
 =======
       "version": "1.3.2",
@@ -187,12 +218,16 @@
 =======
       "version": "1.3.3",
 >>>>>>> 6154507 (improve logic and materials)
+=======
+      "version": "1.3.3",
+>>>>>>> 615f63b (adding multiplayer functionality)
       "depth": 0,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.multiplayer.center": {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "version": "1.0.1",
@@ -202,6 +237,9 @@
 =======
       "version": "1.0.1",
 >>>>>>> 6154507 (improve logic and materials)
+=======
+      "version": "1.0.1",
+>>>>>>> 615f63b (adding multiplayer functionality)
       "depth": 0,
       "source": "builtin",
       "dependencies": {
@@ -211,8 +249,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6154507 (improve logic and materials)
+=======
+>>>>>>> 615f63b (adding multiplayer functionality)
     "com.unity.multiplayer.playmode": {
       "version": "2.0.1",
       "depth": 0,
@@ -235,6 +276,7 @@
     "com.unity.nuget.mono-cecil": {
       "version": "1.11.6",
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     "com.unity.nuget.mono-cecil": {
       "version": "1.11.5",
@@ -245,6 +287,8 @@
 >>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
 =======
 >>>>>>> 6154507 (improve logic and materials)
+=======
+>>>>>>> 615f63b (adding multiplayer functionality)
       "depth": 0,
       "source": "registry",
       "dependencies": {},
@@ -253,8 +297,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6154507 (improve logic and materials)
+=======
+>>>>>>> 615f63b (adding multiplayer functionality)
     "com.unity.nuget.newtonsoft-json": {
       "version": "3.2.2",
       "depth": 1,
@@ -262,6 +309,7 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> master
@@ -294,6 +342,10 @@
     "com.unity.render-pipelines.core": {
       "version": "17.3.0",
 >>>>>>> 6154507 (improve logic and materials)
+=======
+    "com.unity.render-pipelines.core": {
+      "version": "17.3.0",
+>>>>>>> 615f63b (adding multiplayer functionality)
       "depth": 0,
       "source": "builtin",
       "dependencies": {
@@ -305,8 +357,11 @@
         "com.unity.modules.terrain": "1.0.0",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6154507 (improve logic and materials)
+=======
+>>>>>>> 615f63b (adding multiplayer functionality)
         "com.unity.modules.jsonserialize": "1.0.0"
       }
     },
@@ -317,6 +372,7 @@
       "dependencies": {
         "com.unity.render-pipelines.core": "17.3.0",
         "com.unity.shadergraph": "17.3.0",
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         "com.unity.modules.jsonserialize": "1.0.0",
@@ -333,6 +389,8 @@
 >>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
 =======
 >>>>>>> 6154507 (improve logic and materials)
+=======
+>>>>>>> 615f63b (adding multiplayer functionality)
         "com.unity.render-pipelines.universal-config": "17.0.3"
       }
     },
@@ -344,6 +402,7 @@
         "com.unity.render-pipelines.core": "17.0.3"
       }
     },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -377,6 +436,11 @@
       "version": "4.9.4",
       "depth": 0,
 >>>>>>> 6154507 (improve logic and materials)
+=======
+    "com.unity.searcher": {
+      "version": "4.9.4",
+      "depth": 0,
+>>>>>>> 615f63b (adding multiplayer functionality)
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -384,13 +448,17 @@
     "com.unity.shadergraph": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6154507 (improve logic and materials)
+=======
+>>>>>>> 615f63b (adding multiplayer functionality)
       "version": "17.3.0",
       "depth": 0,
       "source": "builtin",
       "dependencies": {
         "com.unity.render-pipelines.core": "17.3.0",
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
       "version": "17.2.0",
@@ -401,6 +469,8 @@
 >>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
 =======
 >>>>>>> 6154507 (improve logic and materials)
+=======
+>>>>>>> 615f63b (adding multiplayer functionality)
         "com.unity.searcher": "4.9.3"
       }
     },
@@ -428,6 +498,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "version": "1.8.10",
 =======
       "version": "1.8.9",
@@ -438,6 +509,9 @@
 =======
       "version": "1.8.10",
 >>>>>>> 6154507 (improve logic and materials)
+=======
+      "version": "1.8.10",
+>>>>>>> 615f63b (adding multiplayer functionality)
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -451,8 +525,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6154507 (improve logic and materials)
+=======
+>>>>>>> 615f63b (adding multiplayer functionality)
     "com.unity.transport": {
       "version": "2.6.0",
       "depth": 1,
@@ -465,12 +542,15 @@
       "url": "https://packages.unity.com"
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 =======
 >>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
 =======
 >>>>>>> 6154507 (improve logic and materials)
+=======
+>>>>>>> 615f63b (adding multiplayer functionality)
     "com.unity.ugui": {
       "version": "2.0.0",
       "depth": 0,
@@ -484,6 +564,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "version": "1.9.9",
 =======
       "version": "1.9.8",
@@ -494,6 +575,9 @@
 =======
       "version": "1.9.9",
 >>>>>>> 6154507 (improve logic and materials)
+=======
+      "version": "1.9.9",
+>>>>>>> 615f63b (adding multiplayer functionality)
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -511,8 +595,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6154507 (improve logic and materials)
+=======
+>>>>>>> 615f63b (adding multiplayer functionality)
     "com.unity.modules.adaptiveperformance": {
       "version": "1.0.0",
       "depth": 0,
@@ -522,12 +609,15 @@
       }
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 =======
 >>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
 =======
 >>>>>>> 6154507 (improve logic and materials)
+=======
+>>>>>>> 615f63b (adding multiplayer functionality)
     "com.unity.modules.ai": {
       "version": "1.0.0",
       "depth": 0,
@@ -738,8 +828,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6154507 (improve logic and materials)
+=======
+>>>>>>> 615f63b (adding multiplayer functionality)
     "com.unity.modules.vectorgraphics": {
       "version": "1.0.0",
       "depth": 0,
@@ -751,12 +844,15 @@
       }
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 =======
 >>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
 =======
 >>>>>>> 6154507 (improve logic and materials)
+=======
+>>>>>>> 615f63b (adding multiplayer functionality)
     "com.unity.modules.vehicles": {
       "version": "1.0.0",
       "depth": 0,

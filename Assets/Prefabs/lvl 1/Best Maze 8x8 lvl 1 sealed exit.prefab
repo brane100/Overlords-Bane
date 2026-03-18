@@ -3,10 +3,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
 =======
 >>>>>>> 6154507 (improve logic and materials)
+=======
+>>>>>>> 615f63b (adding multiplayer functionality)
 --- !u!1 &2194904466667014407
 GameObject:
   m_ObjectHideFlags: 0
@@ -167,6 +170,7 @@ MonoBehaviour:
 --- !u!1001 &3943752114106808034
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 --- !u!1001 &4801999380323828126
 >>>>>>> master
@@ -174,11 +178,14 @@ MonoBehaviour:
 >>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
 =======
 >>>>>>> 6154507 (improve logic and materials)
+=======
+>>>>>>> 615f63b (adding multiplayer functionality)
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -257,6 +264,9 @@ PrefabInstance:
 =======
     m_TransformParent: {fileID: 934664033158893376}
 >>>>>>> 6154507 (improve logic and materials)
+=======
+    m_TransformParent: {fileID: 934664033158893376}
+>>>>>>> 615f63b (adding multiplayer functionality)
     m_Modifications:
     - target: {fileID: 3034643417380308782, guid: 44e0cc4c9daa21c4ebdebdfa9f7b8e08, type: 3}
       propertyPath: _backWall
@@ -277,10 +287,13 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
 =======
 >>>>>>> 6154507 (improve logic and materials)
+=======
+>>>>>>> 615f63b (adding multiplayer functionality)
     - target: {fileID: 5833128282412193091, guid: 44e0cc4c9daa21c4ebdebdfa9f7b8e08, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.62
@@ -291,12 +304,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
 =======
 >>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
 =======
 >>>>>>> 6154507 (improve logic and materials)
+=======
+>>>>>>> 615f63b (adding multiplayer functionality)
     - target: {fileID: 6231467197374643230, guid: 44e0cc4c9daa21c4ebdebdfa9f7b8e08, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -304,14 +320,18 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
 =======
 >>>>>>> 6154507 (improve logic and materials)
+=======
+>>>>>>> 615f63b (adding multiplayer functionality)
     - target: {fileID: 7354589072750414324, guid: 44e0cc4c9daa21c4ebdebdfa9f7b8e08, type: 3}
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -320,6 +340,8 @@ PrefabInstance:
 >>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
 =======
 >>>>>>> 6154507 (improve logic and materials)
+=======
+>>>>>>> 615f63b (adding multiplayer functionality)
     - target: {fileID: 7526872495701640375, guid: 44e0cc4c9daa21c4ebdebdfa9f7b8e08, type: 3}
       propertyPath: m_LocalPosition.x
       value: 72.02
@@ -373,10 +395,13 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
 =======
 >>>>>>> 6154507 (improve logic and materials)
+=======
+>>>>>>> 615f63b (adding multiplayer functionality)
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 7526872495701640375, guid: 44e0cc4c9daa21c4ebdebdfa9f7b8e08, type: 3}
       insertIndex: -1
@@ -454,6 +479,7 @@ Transform:
   m_PrefabInstance: {fileID: 4471418023710477348}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -467,4 +493,6 @@ Transform:
 >>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
 =======
 >>>>>>> 6154507 (improve logic and materials)
+=======
+>>>>>>> 615f63b (adding multiplayer functionality)
   m_PrefabAsset: {fileID: 0}

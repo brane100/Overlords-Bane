@@ -3,8 +3,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6154507 (improve logic and materials)
+=======
+>>>>>>> 615f63b (adding multiplayer functionality)
     "com.unity.ai.navigation": "2.0.10",
     "com.unity.burst": "1.8.28",
     "com.unity.cinemachine": "2.10.5",
@@ -19,7 +22,10 @@
     "com.unity.multiplayer.playmode": "2.0.1",
     "com.unity.netcode.gameobjects": "2.9.2",
     "com.unity.nuget.mono-cecil": "1.11.6",
+<<<<<<< HEAD
     "com.unity.package-validation-suite": "0.22.0-preview",
+=======
+>>>>>>> 615f63b (adding multiplayer functionality)
     "com.unity.render-pipelines.core": "17.3.0",
     "com.unity.render-pipelines.universal": "17.3.0",
     "com.unity.render-pipelines.universal-config": "17.0.3",
@@ -32,6 +38,7 @@
     "com.unity.visualscripting": "1.9.9",
     "com.unity.modules.accessibility": "1.0.0",
     "com.unity.modules.adaptiveperformance": "1.0.0",
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -67,6 +74,8 @@
 >>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
 =======
 >>>>>>> 6154507 (improve logic and materials)
+=======
+>>>>>>> 615f63b (adding multiplayer functionality)
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
     "com.unity.modules.animation": "1.0.0",
@@ -98,6 +107,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "com.unity.modules.vectorgraphics": "1.0.0",
 =======
 >>>>>>> master
@@ -106,6 +116,9 @@
 =======
     "com.unity.modules.vectorgraphics": "1.0.0",
 >>>>>>> 6154507 (improve logic and materials)
+=======
+    "com.unity.modules.vectorgraphics": "1.0.0",
+>>>>>>> 615f63b (adding multiplayer functionality)
     "com.unity.modules.vehicles": "1.0.0",
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.vr": "1.0.0",
