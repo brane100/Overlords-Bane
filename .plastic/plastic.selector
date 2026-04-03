@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 rep "Building maze/Building maze@6872756932876@cloud"
   path "/"
 <<<<<<< HEAD
@@ -17,3 +18,8 @@ repository "Building maze/Building maze@6872756932876@cloud"
   path "/"
     smartbranch "/main" changeset "12"
 >>>>>>> 615f63b (adding multiplayer functionality)
+=======
+repository "Building maze/Building maze@6872756932876@cloud"
+  path "/"
+    smartbranch "/main" changeset "14"
+>>>>>>> 3e29349 (implement new multiplayer functionality)

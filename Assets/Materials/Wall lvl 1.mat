@@ -43,6 +43,7 @@ Material:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         m_Scale: {x: 2, y: 2}
 =======
         m_Scale: {x: 1, y: 1}
@@ -53,6 +54,9 @@ Material:
 =======
         m_Scale: {x: 2, y: 2}
 >>>>>>> 615f63b (adding multiplayer functionality)
+=======
+        m_Scale: {x: 2, y: 2}
+>>>>>>> 3e29349 (implement new multiplayer functionality)
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 0}
@@ -79,6 +83,7 @@ Material:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         m_Scale: {x: 2, y: 2}
 =======
         m_Scale: {x: 1, y: 1}
@@ -89,6 +94,9 @@ Material:
 =======
         m_Scale: {x: 2, y: 2}
 >>>>>>> 615f63b (adding multiplayer functionality)
+=======
+        m_Scale: {x: 2, y: 2}
+>>>>>>> 3e29349 (implement new multiplayer functionality)
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}

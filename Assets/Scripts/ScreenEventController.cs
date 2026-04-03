@@ -31,6 +31,12 @@ public class ScreenEventController : MonoBehaviour
         }
 
         if (playerInput == null)
+<<<<<<< HEAD
+=======
+            playerInput = GetComponent<PlayerInput>();
+
+        if (playerInput == null)
+>>>>>>> 3e29349 (implement new multiplayer functionality)
             Debug.LogError("[ScreenEvent] PlayerInput is NULL");
 
         if (audioSource == null)

@@ -1,10 +1,16 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿ using UnityEngine;
 =======
 ﻿using UnityEngine;
 using Unity.Netcode;
 using Cinemachine;
 >>>>>>> 615f63b (adding multiplayer functionality)
+=======
+﻿using UnityEngine;
+using Unity.Netcode;
+using Cinemachine;
+>>>>>>> 3e29349 (implement new multiplayer functionality)
 #if ENABLE_INPUT_SYSTEM 
 using UnityEngine.InputSystem;
 #endif
@@ -19,10 +25,14 @@ namespace StarterAssets
     [RequireComponent(typeof(PlayerInput))]
 #endif
 <<<<<<< HEAD
+<<<<<<< HEAD
     public class ThirdPersonController : MonoBehaviour
 =======
     public class ThirdPersonController : NetworkBehaviour
 >>>>>>> 615f63b (adding multiplayer functionality)
+=======
+    public class ThirdPersonController : NetworkBehaviour
+>>>>>>> 3e29349 (implement new multiplayer functionality)
     {
         [Header("Player")]
         [Tooltip("Move speed of the character in m/s")]
@@ -128,10 +138,14 @@ namespace StarterAssets
                 return _playerInput.currentControlScheme == "KeyboardMouse";
 #else
 <<<<<<< HEAD
+<<<<<<< HEAD
 				return false;
 =======
                 return false;
 >>>>>>> 615f63b (adding multiplayer functionality)
+=======
+                return false;
+>>>>>>> 3e29349 (implement new multiplayer functionality)
 #endif
             }
         }
@@ -147,6 +161,7 @@ namespace StarterAssets
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         private void Start()
         {
             _cinemachineTargetYaw = CinemachineCameraTarget.transform.rotation.eulerAngles.y;
@@ -159,6 +174,8 @@ namespace StarterAssets
 #else
 			Debug.LogError( "Starter Assets package is missing dependencies. Please use Tools/Starter Assets/Reinstall Dependencies to fix it");
 =======
+=======
+>>>>>>> 3e29349 (implement new multiplayer functionality)
         public override void OnNetworkSpawn()
         {
             _cinemachineTargetYaw = CinemachineCameraTarget.transform.rotation.eulerAngles.y;
@@ -170,7 +187,10 @@ namespace StarterAssets
             _playerInput = GetComponent<PlayerInput>();
 #else
             Debug.LogError("Starter Assets package is missing dependencies. Please use Tools/Starter Assets/Reinstall Dependencies to fix it");
+<<<<<<< HEAD
 >>>>>>> 615f63b (adding multiplayer functionality)
+=======
+>>>>>>> 3e29349 (implement new multiplayer functionality)
 #endif
 
             AssignAnimationIDs();
@@ -179,7 +199,10 @@ namespace StarterAssets
             _jumpTimeoutDelta = JumpTimeout;
             _fallTimeoutDelta = FallTimeout;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 3e29349 (implement new multiplayer functionality)
 
             if (!IsOwner)
             {
@@ -191,19 +214,28 @@ namespace StarterAssets
         private void Start()
         {
             
+<<<<<<< HEAD
 >>>>>>> 615f63b (adding multiplayer functionality)
+=======
+>>>>>>> 3e29349 (implement new multiplayer functionality)
         }
 
         private void Update()
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 3e29349 (implement new multiplayer functionality)
             if (!IsOwner)
             {
                 return;
             }
 
+<<<<<<< HEAD
 >>>>>>> 615f63b (adding multiplayer functionality)
+=======
+>>>>>>> 3e29349 (implement new multiplayer functionality)
             _hasAnimator = TryGetComponent(out _animator);
 
             JumpAndGravity();

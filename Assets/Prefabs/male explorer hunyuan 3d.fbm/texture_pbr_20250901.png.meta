@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 5921cd8859c6d4c47a1f0a5c5c68f7ef
+=======
+guid: a513469d2d3f59a42a6a70759c01af2b
+>>>>>>> 3e29349 (implement new multiplayer functionality)
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

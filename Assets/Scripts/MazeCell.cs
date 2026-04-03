@@ -10,9 +10,12 @@ public class MazeCell : MonoBehaviour
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 615f63b (adding multiplayer functionality)
+=======
+>>>>>>> 3e29349 (implement new multiplayer functionality)
     public int X { get; private set; }
     public int Z { get; private set; }
 
@@ -24,9 +27,12 @@ public class MazeCell : MonoBehaviour
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6154507 (improve logic and materials)
 =======
 >>>>>>> 615f63b (adding multiplayer functionality)
+=======
+>>>>>>> 3e29349 (implement new multiplayer functionality)
     public bool IsVisited { get; private set; }
 
     public void Visit()
@@ -52,11 +58,14 @@ public class MazeCell : MonoBehaviour
         _backWall.SetActive(false);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     }   
 }
 =======
 =======
 >>>>>>> 615f63b (adding multiplayer functionality)
+=======
+>>>>>>> 3e29349 (implement new multiplayer functionality)
     }
 
     public void ApplyWallOwnership(bool showLeft, bool showBack, bool showRight, bool showFront)
@@ -73,8 +82,12 @@ public bool IsFrontWallActive() => _frontWall.activeSelf;
 public bool IsBackWallActive()  => _backWall.activeSelf;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 >>>>>>> 6154507 (improve logic and materials)
 =======
 }
 >>>>>>> 615f63b (adding multiplayer functionality)
+=======
+}
+>>>>>>> 3e29349 (implement new multiplayer functionality)

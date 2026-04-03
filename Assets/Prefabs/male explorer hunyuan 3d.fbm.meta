@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 3e5a80319bd9abb4c8409051dd45cb6f
+=======
+guid: 90e975068f17a334ea5143a469e2418f
+>>>>>>> 3e29349 (implement new multiplayer functionality)
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

@@ -3,6 +3,7 @@ fileFormatVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 guid: d68f5ea4365fe024fa57a81aff2db8ae
 =======
 guid: 9b6e33b23bb42cb4289faa025a1725ab
@@ -16,6 +17,9 @@ guid: d68f5ea4365fe024fa57a81aff2db8ae
 =======
 guid: d68f5ea4365fe024fa57a81aff2db8ae
 >>>>>>> 615f63b (adding multiplayer functionality)
+=======
+guid: d68f5ea4365fe024fa57a81aff2db8ae
+>>>>>>> 3e29349 (implement new multiplayer functionality)
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 2100000

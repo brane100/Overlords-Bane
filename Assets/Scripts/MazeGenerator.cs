@@ -14,11 +14,14 @@ public class MazeGenerator : MonoBehaviour
     private string _exitWall;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     private GameObject _mazeParent; // Parent object to hold all maze cells
 =======
 >>>>>>> 6154507 (improve logic and materials)
 =======
 >>>>>>> 615f63b (adding multiplayer functionality)
+=======
+>>>>>>> 3e29349 (implement new multiplayer functionality)
     
     [SerializeField] private int _hideoutRoomSize = 3; // Size of hiding rooms (e.g., 3x3)
     [SerializeField] private int _numberOfHideouts = 5; // Number of hiding rooms to create
@@ -33,6 +36,7 @@ public class MazeGenerator : MonoBehaviour
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // Create a parent GameObject to hold all maze cells
         _mazeParent = new GameObject("Maze_" + _mazeWidth + "x" + _mazeDepth);
         _mazeParent.transform.SetParent(mazeRoot);
@@ -42,12 +46,15 @@ public class MazeGenerator : MonoBehaviour
 >>>>>>> 6154507 (improve logic and materials)
 =======
 >>>>>>> 615f63b (adding multiplayer functionality)
+=======
+>>>>>>> 3e29349 (implement new multiplayer functionality)
         _mazeGrid = new MazeCell[_mazeWidth, _mazeDepth];
         Vector3 cellSize = _mazeCellPrefab.transform.localScale;
         for (int x = 0; x < _mazeWidth; x++)
         {
             for (int z = 0; z < _mazeDepth; z++)
             {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                 _mazeGrid[x, z] = Instantiate(_mazeCellPrefab, new Vector3(x * cellSize.x, 0, z * cellSize.z), Quaternion.identity, _mazeParent.transform);
@@ -57,6 +64,9 @@ public class MazeGenerator : MonoBehaviour
 =======
                 _mazeGrid[x, z] = Instantiate(_mazeCellPrefab, new Vector3(x * cellSize.x, 0, z * cellSize.z), Quaternion.identity, mazeRoot);
 >>>>>>> 615f63b (adding multiplayer functionality)
+=======
+                _mazeGrid[x, z] = Instantiate(_mazeCellPrefab, new Vector3(x * cellSize.x, 0, z * cellSize.z), Quaternion.identity, mazeRoot);
+>>>>>>> 3e29349 (implement new multiplayer functionality)
             }
         }
 

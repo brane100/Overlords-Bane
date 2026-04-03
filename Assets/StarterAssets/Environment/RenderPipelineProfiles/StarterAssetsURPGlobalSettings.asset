@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: StarterAssetsURPGlobalSettings
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_ShaderStrippingSetting:
     m_Version: 0
     m_ExportShaderVariants: 1
@@ -75,6 +76,9 @@ MonoBehaviour:
 =======
   k_AssetVersion: 3
 >>>>>>> 615f63b (adding multiplayer functionality)
+=======
+  k_AssetVersion: 3
+>>>>>>> 3e29349 (implement new multiplayer functionality)
   m_RenderingLayerNames:
   - Light Layer default
   - Light Layer 1
@@ -93,6 +97,7 @@ MonoBehaviour:
   lightLayerName5: Light Layer 5
   lightLayerName6: Light Layer 6
   lightLayerName7: Light Layer 7
+<<<<<<< HEAD
 <<<<<<< HEAD
   apvScenesData:
     obsoleteSceneBounds:
@@ -405,6 +410,8 @@ MonoBehaviour:
         m_preTaaCS: {fileID: 7200000, guid: a679dba8ec4d9ce45884a270b0e22dda, type: 3}
         m_taaCS: {fileID: 7200000, guid: 3923900e2b41b5e47bc25bfdcbcdc9e6, type: 3}
 =======
+=======
+>>>>>>> 3e29349 (implement new multiplayer functionality)
   m_StripDebugVariants: 1
   m_StripUnusedPostProcessingVariants: 0
   m_StripUnusedVariants: 1
@@ -413,4 +420,7 @@ MonoBehaviour:
   supportRuntimeDebugDisplay: 0
   m_ShaderVariantLogLevel: 0
   m_ExportShaderVariants: 1
+<<<<<<< HEAD
 >>>>>>> 615f63b (adding multiplayer functionality)
+=======
+>>>>>>> 3e29349 (implement new multiplayer functionality)
