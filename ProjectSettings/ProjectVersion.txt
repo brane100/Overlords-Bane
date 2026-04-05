@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 m_EditorVersion: 6000.3.10f1
 m_EditorVersionWithRevision: 6000.3.10f1 (e35f0c77bd8e)
 =======
@@ -25,3 +26,7 @@ m_EditorVersionWithRevision: 6000.3.10f1 (e35f0c77bd8e)
 m_EditorVersion: 6000.3.10f1
 m_EditorVersionWithRevision: 6000.3.10f1 (e35f0c77bd8e)
 >>>>>>> 3e29349 (implement new multiplayer functionality)
+=======
+m_EditorVersion: 6000.2.9f1
+m_EditorVersionWithRevision: 6000.2.9f1 (e0c4e791ab71)
+>>>>>>> 6d95923 (add ending sound for level 1)

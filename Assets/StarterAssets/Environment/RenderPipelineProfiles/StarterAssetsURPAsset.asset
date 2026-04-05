@@ -16,6 +16,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   k_AssetVersion: 13
   k_AssetPreviousVersion: 13
 =======
@@ -34,6 +35,10 @@ MonoBehaviour:
   k_AssetVersion: 13
   k_AssetPreviousVersion: 13
 >>>>>>> 3e29349 (implement new multiplayer functionality)
+=======
+  k_AssetVersion: 13
+  k_AssetPreviousVersion: 13
+>>>>>>> 6d95923 (add ending sound for level 1)
   m_RendererType: 1
   m_RendererData: {fileID: 0}
   m_RendererDataList:
@@ -77,6 +82,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_ReflectionProbeAtlas: 1
 =======
 >>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
@@ -88,6 +94,9 @@ MonoBehaviour:
 =======
   m_ReflectionProbeAtlas: 1
 >>>>>>> 3e29349 (implement new multiplayer functionality)
+=======
+  m_ReflectionProbeAtlas: 1
+>>>>>>> 6d95923 (add ending sound for level 1)
   m_ShadowDistance: 50
   m_ShadowCascadeCount: 1
   m_Cascade2Split: 0.25
@@ -166,10 +175,13 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 615f63b (adding multiplayer functionality)
 =======
 >>>>>>> 3e29349 (implement new multiplayer functionality)
+=======
+>>>>>>> 6d95923 (add ending sound for level 1)
   m_PrefilterScreenSpaceIrradiance: 0
   m_PrefilterNativeRenderPass: 0
   m_PrefilterUseLegacyLightmaps: 0
@@ -178,6 +190,7 @@ MonoBehaviour:
   m_PrefilterReflectionProbeBlending: 0
   m_PrefilterReflectionProbeBoxProjection: 0
   m_PrefilterReflectionProbeAtlas: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -192,6 +205,8 @@ MonoBehaviour:
 >>>>>>> 615f63b (adding multiplayer functionality)
 =======
 >>>>>>> 3e29349 (implement new multiplayer functionality)
+=======
+>>>>>>> 6d95923 (add ending sound for level 1)
   m_ShaderVariantLogLevel: 0
   m_ShadowCascades: 0
   m_Textures:

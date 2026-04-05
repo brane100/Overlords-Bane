@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &-7408532540318274938
 =======
 --- !u!114 &-4261199827426895725
@@ -21,6 +22,9 @@
 =======
 --- !u!114 &-7408532540318274938
 >>>>>>> 3e29349 (implement new multiplayer functionality)
+=======
+--- !u!114 &-4261199827426895725
+>>>>>>> 6d95923 (add ending sound for level 1)
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -64,6 +68,7 @@ Material:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         m_Texture: {fileID: 2800000, guid: 7dd79d4405476bd43ae1501324fda314, type: 3}
 =======
         m_Texture: {fileID: 0}
@@ -80,6 +85,9 @@ Material:
 =======
         m_Texture: {fileID: 2800000, guid: 7dd79d4405476bd43ae1501324fda314, type: 3}
 >>>>>>> 3e29349 (implement new multiplayer functionality)
+=======
+        m_Texture: {fileID: 0}
+>>>>>>> 6d95923 (add ending sound for level 1)
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -108,6 +116,7 @@ Material:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         m_Texture: {fileID: 2800000, guid: 7dd79d4405476bd43ae1501324fda314, type: 3}
 =======
         m_Texture: {fileID: 0}
@@ -124,6 +133,9 @@ Material:
 =======
         m_Texture: {fileID: 2800000, guid: 7dd79d4405476bd43ae1501324fda314, type: 3}
 >>>>>>> 3e29349 (implement new multiplayer functionality)
+=======
+        m_Texture: {fileID: 0}
+>>>>>>> 6d95923 (add ending sound for level 1)
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -184,6 +196,7 @@ Material:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - _Smoothness: 0.05
 =======
     - _Smoothness: 0.5
@@ -200,6 +213,9 @@ Material:
 =======
     - _Smoothness: 0.05
 >>>>>>> 3e29349 (implement new multiplayer functionality)
+=======
+    - _Smoothness: 0.5
+>>>>>>> 6d95923 (add ending sound for level 1)
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -209,6 +225,7 @@ Material:
     - _XRMotionVectorsPass: 1
     - _ZWrite: 1
     m_Colors:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -236,6 +253,10 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
 >>>>>>> 3e29349 (implement new multiplayer functionality)
+=======
+    - _BaseColor: {r: 1, g: 0, b: 0, a: 1}
+    - _Color: {r: 1, g: 0, b: 0, a: 1}
+>>>>>>> 6d95923 (add ending sound for level 1)
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []

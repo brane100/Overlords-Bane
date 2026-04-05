@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6154507 (improve logic and materials)
 =======
@@ -57,6 +58,8 @@
 =======
 =======
 >>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
+=======
+>>>>>>> 6d95923 (add ending sound for level 1)
     "com.unity.ai.navigation": "2.0.9",
     "com.unity.burst": "1.8.25",
     "com.unity.cinemachine": "2.10.4",
@@ -83,6 +86,7 @@
     "com.unity.visualscripting": "1.9.8",
     "com.unity.modules.accessibility": "1.0.0",
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> master
 =======
 >>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
@@ -92,6 +96,8 @@
 >>>>>>> 615f63b (adding multiplayer functionality)
 =======
 >>>>>>> 3e29349 (implement new multiplayer functionality)
+=======
+>>>>>>> 6d95923 (add ending sound for level 1)
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
     "com.unity.modules.animation": "1.0.0",
@@ -125,6 +131,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "com.unity.modules.vectorgraphics": "1.0.0",
 =======
 >>>>>>> master
@@ -139,6 +146,8 @@
 =======
     "com.unity.modules.vectorgraphics": "1.0.0",
 >>>>>>> 3e29349 (implement new multiplayer functionality)
+=======
+>>>>>>> 6d95923 (add ending sound for level 1)
     "com.unity.modules.vehicles": "1.0.0",
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.vr": "1.0.0",

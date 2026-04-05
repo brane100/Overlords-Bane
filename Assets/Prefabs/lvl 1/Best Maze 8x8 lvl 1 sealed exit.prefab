@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
 =======
@@ -186,6 +187,9 @@ MonoBehaviour:
 >>>>>>> 615f63b (adding multiplayer functionality)
 =======
 >>>>>>> 3e29349 (implement new multiplayer functionality)
+=======
+--- !u!1001 &4801999380323828126
+>>>>>>> 6d95923 (add ending sound for level 1)
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -196,8 +200,11 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 934664033158893376}
 =======
+=======
+>>>>>>> 6d95923 (add ending sound for level 1)
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3671908128268469092, guid: d8acde01c7184944e99eaa4215b8d78e, type: 3}
@@ -264,6 +271,7 @@ PrefabInstance:
   m_Modification:
     serializedVersion: 3
     m_TransformParent: {fileID: 8093280802333704954}
+<<<<<<< HEAD
 >>>>>>> master
 =======
     m_TransformParent: {fileID: 934664033158893376}
@@ -277,6 +285,8 @@ PrefabInstance:
 =======
     m_TransformParent: {fileID: 934664033158893376}
 >>>>>>> 3e29349 (implement new multiplayer functionality)
+=======
+>>>>>>> 6d95923 (add ending sound for level 1)
     m_Modifications:
     - target: {fileID: 3034643417380308782, guid: 44e0cc4c9daa21c4ebdebdfa9f7b8e08, type: 3}
       propertyPath: _backWall
@@ -294,6 +304,7 @@ PrefabInstance:
       propertyPath: _unvisitedBlock
       value: 
       objectReference: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -329,10 +340,13 @@ PrefabInstance:
 >>>>>>> 615f63b (adding multiplayer functionality)
 =======
 >>>>>>> 3e29349 (implement new multiplayer functionality)
+=======
+>>>>>>> 6d95923 (add ending sound for level 1)
     - target: {fileID: 6231467197374643230, guid: 44e0cc4c9daa21c4ebdebdfa9f7b8e08, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 40c5042bfef9bd841b40ad7f277c3d46, type: 2}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -364,6 +378,8 @@ PrefabInstance:
 >>>>>>> 615f63b (adding multiplayer functionality)
 =======
 >>>>>>> 3e29349 (implement new multiplayer functionality)
+=======
+>>>>>>> 6d95923 (add ending sound for level 1)
     - target: {fileID: 7526872495701640375, guid: 44e0cc4c9daa21c4ebdebdfa9f7b8e08, type: 3}
       propertyPath: m_LocalPosition.x
       value: 72.02
@@ -414,6 +430,7 @@ PrefabInstance:
     - {fileID: 5091841051421705800, guid: 44e0cc4c9daa21c4ebdebdfa9f7b8e08, type: 3}
     - {fileID: 1612851958146672654, guid: 44e0cc4c9daa21c4ebdebdfa9f7b8e08, type: 3}
     - {fileID: 1526704240411149123, guid: 44e0cc4c9daa21c4ebdebdfa9f7b8e08, type: 3}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -507,6 +524,8 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 6d95923 (add ending sound for level 1)
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 44e0cc4c9daa21c4ebdebdfa9f7b8e08, type: 3}
@@ -514,6 +533,7 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 7526872495701640375, guid: 44e0cc4c9daa21c4ebdebdfa9f7b8e08, type: 3}
   m_PrefabInstance: {fileID: 8992901457101096973}
+<<<<<<< HEAD
 >>>>>>> master
 =======
 >>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
@@ -523,4 +543,6 @@ Transform:
 >>>>>>> 615f63b (adding multiplayer functionality)
 =======
 >>>>>>> 3e29349 (implement new multiplayer functionality)
+=======
+>>>>>>> 6d95923 (add ending sound for level 1)
   m_PrefabAsset: {fileID: 0}

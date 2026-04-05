@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_ShaderStrippingSetting:
     m_Version: 0
     m_ExportShaderVariants: 1
@@ -79,6 +80,9 @@ MonoBehaviour:
 =======
   k_AssetVersion: 3
 >>>>>>> 3e29349 (implement new multiplayer functionality)
+=======
+  k_AssetVersion: 3
+>>>>>>> 6d95923 (add ending sound for level 1)
   m_RenderingLayerNames:
   - Light Layer default
   - Light Layer 1
@@ -97,6 +101,7 @@ MonoBehaviour:
   lightLayerName5: Light Layer 5
   lightLayerName6: Light Layer 6
   lightLayerName7: Light Layer 7
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   apvScenesData:
@@ -412,6 +417,8 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> 3e29349 (implement new multiplayer functionality)
+=======
+>>>>>>> 6d95923 (add ending sound for level 1)
   m_StripDebugVariants: 1
   m_StripUnusedPostProcessingVariants: 0
   m_StripUnusedVariants: 1
@@ -421,6 +428,9 @@ MonoBehaviour:
   m_ShaderVariantLogLevel: 0
   m_ExportShaderVariants: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 615f63b (adding multiplayer functionality)
 =======
 >>>>>>> 3e29349 (implement new multiplayer functionality)
+=======
+>>>>>>> 6d95923 (add ending sound for level 1)

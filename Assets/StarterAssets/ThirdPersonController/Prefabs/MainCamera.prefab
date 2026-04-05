@@ -13,9 +13,12 @@ GameObject:
   - component: {fileID: 8944336655422409497}
   - component: {fileID: 9078993845375825671}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   - component: {fileID: 7818861391004906354}
 >>>>>>> 3e29349 (implement new multiplayer functionality)
+=======
+>>>>>>> 6d95923 (add ending sound for level 1)
   m_Layer: 0
   m_Name: MainCamera
   m_TagString: MainCamera
@@ -31,12 +34,16 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8944336655422409498}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6d95923 (add ending sound for level 1)
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.5, y: 1.375, z: -4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+<<<<<<< HEAD
 =======
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -46,6 +53,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
 >>>>>>> 3e29349 (implement new multiplayer functionality)
+=======
+>>>>>>> 6d95923 (add ending sound for level 1)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!20 &8944336655422409496
 Camera:
@@ -61,6 +70,7 @@ Camera:
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
@@ -78,6 +88,11 @@ Camera:
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
 >>>>>>> 3e29349 (implement new multiplayer functionality)
+=======
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+>>>>>>> 6d95923 (add ending sound for level 1)
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -86,16 +101,22 @@ Camera:
     height: 1
   near clip plane: 0.2
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6d95923 (add ending sound for level 1)
   far clip plane: 5000
   field of view: 40
   orthographic: 0
   orthographic size: 5
+<<<<<<< HEAD
 =======
   far clip plane: 60
   field of view: 40
   orthographic: 0
   orthographic size: 10
 >>>>>>> 3e29349 (implement new multiplayer functionality)
+=======
+>>>>>>> 6d95923 (add ending sound for level 1)
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -154,6 +175,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 --- !u!114 &7818861391004906354
 MonoBehaviour:
@@ -200,3 +222,5 @@ MonoBehaviour:
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
 >>>>>>> 3e29349 (implement new multiplayer functionality)
+=======
+>>>>>>> 6d95923 (add ending sound for level 1)

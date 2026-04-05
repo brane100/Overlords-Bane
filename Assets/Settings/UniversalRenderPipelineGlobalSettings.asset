@@ -67,17 +67,21 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       - rid: 2723759186456870989
       - rid: 2723759186456870990
       - rid: 2723759186456870991
       - rid: 2723759186456870992
       - rid: 2723759186456870993
 =======
+=======
+>>>>>>> 6d95923 (add ending sound for level 1)
       - rid: 2969982680446533725
       - rid: 2969982680446533726
       - rid: 2969982680446533727
       - rid: 2969982680446533728
       - rid: 2969982680446533729
+<<<<<<< HEAD
 >>>>>>> master
     m_RuntimeSettings:
       m_List: []
@@ -107,6 +111,11 @@ MonoBehaviour:
 >>>>>>> 615f63b (adding multiplayer functionality)
 =======
 >>>>>>> 3e29349 (implement new multiplayer functionality)
+=======
+    m_RuntimeSettings:
+      m_List: []
+  m_AssetVersion: 10
+>>>>>>> 6d95923 (add ending sound for level 1)
   m_ObsoleteDefaultVolumeProfile: {fileID: 0}
   m_RenderingLayerNames:
   - Light Layer default
@@ -141,6 +150,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - rid: 2723759186456870989
 =======
     - rid: 2969982680446533725
@@ -154,6 +164,9 @@ MonoBehaviour:
 =======
     - rid: 2723759186456870912
 >>>>>>> 3e29349 (implement new multiplayer functionality)
+=======
+    - rid: 2969982680446533725
+>>>>>>> 6d95923 (add ending sound for level 1)
       type: {class: RayTracingRenderPipelineResources, ns: UnityEngine.Rendering.UnifiedRayTracing, asm: Unity.UnifiedRayTracing.Runtime}
       data:
         m_Version: 1
@@ -166,6 +179,7 @@ MonoBehaviour:
         m_BuildHlbvh: {fileID: 7200000, guid: 2d70cd6be91bd7843a39a54b51c15b13, type: 3}
         m_RestructureBvh: {fileID: 7200000, guid: 56641cb88dcb31a4398a4997ef7a7a8c, type: 3}
         m_Scatter: {fileID: 7200000, guid: a2eaeefdac4637a44b734e85b7be9186, type: 3}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -183,10 +197,14 @@ MonoBehaviour:
 =======
     - rid: 2723759186456870913
 >>>>>>> 3e29349 (implement new multiplayer functionality)
+=======
+    - rid: 2969982680446533726
+>>>>>>> 6d95923 (add ending sound for level 1)
       type: {class: OnTilePostProcessResource, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.Runtime}
       data:
         m_Version: 0
         m_UberPostShader: {fileID: 4800000, guid: fe4f13c1004a07d4ea1e30bfd0326d9e, type: 3}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -204,10 +222,14 @@ MonoBehaviour:
 =======
     - rid: 2723759186456870914
 >>>>>>> 3e29349 (implement new multiplayer functionality)
+=======
+    - rid: 2969982680446533727
+>>>>>>> 6d95923 (add ending sound for level 1)
       type: {class: URPTerrainShaderSetting, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.Runtime}
       data:
         m_Version: 0
         m_IncludeTerrainShaders: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -225,12 +247,16 @@ MonoBehaviour:
 =======
     - rid: 2723759186456870915
 >>>>>>> 3e29349 (implement new multiplayer functionality)
+=======
+    - rid: 2969982680446533728
+>>>>>>> 6d95923 (add ending sound for level 1)
       type: {class: UniversalRenderPipelineRuntimeTerrainShaders, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.Runtime}
       data:
         m_Version: 0
         m_TerrainDetailLit: {fileID: 4800000, guid: f6783ab646d374f94b199774402a5144, type: 3}
         m_TerrainDetailGrassBillboard: {fileID: 4800000, guid: 29868e73b638e48ca99a19ea58c48d90, type: 3}
         m_TerrainDetailGrass: {fileID: 4800000, guid: e507fdfead5ca47e8b9a768b51c291a1, type: 3}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -248,10 +274,14 @@ MonoBehaviour:
 =======
     - rid: 2723759186456870916
 >>>>>>> 3e29349 (implement new multiplayer functionality)
+=======
+    - rid: 2969982680446533729
+>>>>>>> 6d95923 (add ending sound for level 1)
       type: {class: URPReflectionProbeSettings, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Universal.Runtime}
       data:
         version: 1
         useReflectionProbeRotation: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -263,6 +293,8 @@ MonoBehaviour:
 >>>>>>> 615f63b (adding multiplayer functionality)
 =======
 >>>>>>> 3e29349 (implement new multiplayer functionality)
+=======
+>>>>>>> 6d95923 (add ending sound for level 1)
     - rid: 6635023893245198336
       type: {class: PostProcessData/ShaderResources, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.Runtime}
       data:
@@ -441,6 +473,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         m_TerrainDetailLit: {fileID: 0}
         m_TerrainDetailGrassBillboard: {fileID: 0}
         m_TerrainDetailGrass: {fileID: 0}
@@ -464,6 +497,11 @@ MonoBehaviour:
         m_TerrainDetailGrassBillboard: {fileID: 0}
         m_TerrainDetailGrass: {fileID: 0}
 >>>>>>> 3e29349 (implement new multiplayer functionality)
+=======
+        m_TerrainDetailLit: {fileID: 0}
+        m_TerrainDetailGrassBillboard: {fileID: 0}
+        m_TerrainDetailGrass: {fileID: 0}
+>>>>>>> 6d95923 (add ending sound for level 1)
     - rid: 6852985685364965381
       type: {class: UniversalRenderPipelineRuntimeTextures, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.Runtime}
       data:
@@ -485,6 +523,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         m_FallOffLookup: {fileID: 2800000, guid: 5688ab254e4c0634f8d6c8e0792331ca, type: 3}
 >>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
@@ -494,10 +533,13 @@ MonoBehaviour:
 >>>>>>> 615f63b (adding multiplayer functionality)
 =======
 >>>>>>> 3e29349 (implement new multiplayer functionality)
+=======
+>>>>>>> 6d95923 (add ending sound for level 1)
         m_CopyDepthPS: {fileID: 4800000, guid: d6dae50ee9e1bfa4db75f19f99355220, type: 3}
         m_DefaultLitMaterial: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
         m_DefaultUnlitMaterial: {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
         m_DefaultMaskMaterial: {fileID: 2100000, guid: 15d0c3709176029428a0da2f8cecf0b5, type: 2}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -514,6 +556,9 @@ MonoBehaviour:
 =======
         m_DefaultMesh2DLitMaterial: {fileID: 2100000, guid: 9452ae1262a74094f8a68013fbcd1834, type: 2}
 >>>>>>> 3e29349 (implement new multiplayer functionality)
+=======
+        m_DefaultMesh2DLitMaterial: {fileID: 2100000, guid: 9452ae1262a74094f8a68013fbcd1834, type: 2}
+>>>>>>> 6d95923 (add ending sound for level 1)
     - rid: 6852985685364965383
       type: {class: UniversalRenderPipelineEditorMaterials, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.Runtime}
       data:

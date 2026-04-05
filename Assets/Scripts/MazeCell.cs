@@ -11,6 +11,7 @@ public class MazeCell : MonoBehaviour
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 615f63b (adding multiplayer functionality)
@@ -33,6 +34,8 @@ public class MazeCell : MonoBehaviour
 >>>>>>> 615f63b (adding multiplayer functionality)
 =======
 >>>>>>> 3e29349 (implement new multiplayer functionality)
+=======
+>>>>>>> 6d95923 (add ending sound for level 1)
     public bool IsVisited { get; private set; }
 
     public void Visit()
@@ -56,6 +59,7 @@ public class MazeCell : MonoBehaviour
     public void ClearBackWall()
     {
         _backWall.SetActive(false);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -91,3 +95,7 @@ public bool IsBackWallActive()  => _backWall.activeSelf;
 =======
 }
 >>>>>>> 3e29349 (implement new multiplayer functionality)
+=======
+    }   
+}
+>>>>>>> 6d95923 (add ending sound for level 1)

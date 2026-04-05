@@ -1,25 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-rep "Building maze/Building maze@6872756932876@cloud"
-  path "/"
-<<<<<<< HEAD
-    smartbranch "/main" changeset "8"
-=======
-    smartbranch "/main" changeset "9"
->>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
-=======
-repository "Building maze/Building maze@6872756932876@cloud"
-  path "/"
-    smartbranch "/main" changeset "10"
->>>>>>> 6154507 (improve logic and materials)
-=======
-repository "Building maze/Building maze@6872756932876@cloud"
-  path "/"
-    smartbranch "/main" changeset "12"
->>>>>>> 615f63b (adding multiplayer functionality)
-=======
 repository "Building maze/Building maze@6872756932876@cloud"
   path "/"
     smartbranch "/main" changeset "14"
->>>>>>> 3e29349 (implement new multiplayer functionality)
