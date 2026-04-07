@@ -60,20 +60,14 @@
         "*.asset": "yaml",
         "*.meta": "yaml",
         "*.prefab": "yaml",
-<<<<<<< HEAD
-        "*.unity": "yaml"
-=======
-        "*.unity": "yaml",
->>>>>>> 6d95923 (add ending sound for level 1)
+        "yaml=======*.unity": "yaml",
+        "": ">>>>>>>6d95923(addendingsoundforlevel1)"
     },
     "explorer.fileNesting.enabled": true,
     "explorer.fileNesting.patterns": {
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-<<<<<<< HEAD
-    "dotnet.defaultSolution": "Building maze.slnx"
-=======
+    "Building maze.slnx=======dotnet.defaultSolution": "Overlords-Bane.slnx>>>>>>>6d95923(addendingsoundforlevel1)",
     "dotnet.defaultSolution": "Overlords-Bane.slnx"
->>>>>>> 6d95923 (add ending sound for level 1)
 }

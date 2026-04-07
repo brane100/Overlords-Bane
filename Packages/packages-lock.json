@@ -1,31 +1,32 @@
 {
   "dependencies": {
+    "com.unity.2d.sprite": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.2d.tilemap": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.tilemap": "1.0.0",
+        "com.unity.modules.uielements": "1.0.0"
+      }
+    },
+    "com.unity.ads": {
+      "version": "4.16.4",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.modules.androidjni": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.ai.navigation": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
       "version": "2.0.10",
-=======
-      "version": "2.0.9",
->>>>>>> master
-=======
-      "version": "2.0.9",
->>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
-=======
-      "version": "2.0.10",
->>>>>>> 6154507 (improve logic and materials)
-=======
-      "version": "2.0.10",
->>>>>>> 615f63b (adding multiplayer functionality)
-=======
-      "version": "2.0.10",
->>>>>>> 3e29349 (implement new multiplayer functionality)
-=======
-      "version": "2.0.9",
->>>>>>> 6d95923 (add ending sound for level 1)
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -33,32 +34,18 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.unity.analytics": {
+      "version": "3.8.2",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.services.analytics": "1.0.4"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.burst": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
       "version": "1.8.28",
-=======
-      "version": "1.8.25",
->>>>>>> master
-=======
-      "version": "1.8.25",
->>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
-=======
-      "version": "1.8.28",
->>>>>>> 6154507 (improve logic and materials)
-=======
-      "version": "1.8.28",
->>>>>>> 615f63b (adding multiplayer functionality)
-=======
-      "version": "1.8.28",
->>>>>>> 3e29349 (implement new multiplayer functionality)
-=======
-      "version": "1.8.25",
->>>>>>> 6d95923 (add ending sound for level 1)
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -68,31 +55,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.cinemachine": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
       "version": "2.10.5",
-=======
-      "version": "2.10.4",
->>>>>>> master
-=======
-      "version": "2.10.4",
->>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
-=======
-      "version": "2.10.5",
->>>>>>> 6154507 (improve logic and materials)
-=======
-      "version": "2.10.5",
->>>>>>> 615f63b (adding multiplayer functionality)
-=======
-      "version": "2.10.5",
->>>>>>> 3e29349 (implement new multiplayer functionality)
-=======
-      "version": "2.10.4",
->>>>>>> 6d95923 (add ending sound for level 1)
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -101,31 +64,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.collab-proxy": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "version": "2.11.3",
-=======
-      "version": "2.10.0",
->>>>>>> master
-=======
-      "version": "2.10.0",
->>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
-=======
-      "version": "2.11.3",
->>>>>>> 6154507 (improve logic and materials)
-=======
-      "version": "2.11.3",
->>>>>>> 615f63b (adding multiplayer functionality)
-=======
       "version": "2.11.4",
->>>>>>> 3e29349 (implement new multiplayer functionality)
-=======
-      "version": "2.10.0",
->>>>>>> 6d95923 (add ending sound for level 1)
       "depth": 0,
       "source": "registry",
       "dependencies": {},
@@ -151,31 +90,7 @@
       "dependencies": {}
     },
     "com.unity.ide.rider": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
       "version": "3.0.39",
-=======
-      "version": "3.0.38",
->>>>>>> master
-=======
-      "version": "3.0.38",
->>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
-=======
-      "version": "3.0.39",
->>>>>>> 6154507 (improve logic and materials)
-=======
-      "version": "3.0.39",
->>>>>>> 615f63b (adding multiplayer functionality)
-=======
-      "version": "3.0.39",
->>>>>>> 3e29349 (implement new multiplayer functionality)
-=======
-      "version": "3.0.38",
->>>>>>> 6d95923 (add ending sound for level 1)
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -184,78 +99,16 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 6154507 (improve logic and materials)
-=======
->>>>>>> 615f63b (adding multiplayer functionality)
-=======
->>>>>>> 3e29349 (implement new multiplayer functionality)
       "version": "2.0.26",
       "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.test-framework": "1.1.33"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
-=======
->>>>>>> 6d95923 (add ending sound for level 1)
-      "version": "2.0.25",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.test-framework": "1.1.31"
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> master
-=======
->>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
-=======
->>>>>>> 6154507 (improve logic and materials)
-=======
->>>>>>> 615f63b (adding multiplayer functionality)
-=======
->>>>>>> 3e29349 (implement new multiplayer functionality)
-=======
->>>>>>> 6d95923 (add ending sound for level 1)
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.inputsystem": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
       "version": "1.18.0",
-=======
-      "version": "1.14.2",
->>>>>>> master
-=======
-      "version": "1.14.2",
->>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
-=======
-      "version": "1.18.0",
->>>>>>> 6154507 (improve logic and materials)
-=======
-      "version": "1.18.0",
->>>>>>> 615f63b (adding multiplayer functionality)
-=======
-      "version": "1.18.0",
->>>>>>> 3e29349 (implement new multiplayer functionality)
-=======
-      "version": "1.14.2",
->>>>>>> 6d95923 (add ending sound for level 1)
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -264,76 +117,20 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.mathematics": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
       "version": "1.3.3",
-=======
-      "version": "1.3.2",
->>>>>>> master
-=======
-      "version": "1.3.2",
->>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
-=======
-      "version": "1.3.3",
->>>>>>> 6154507 (improve logic and materials)
-=======
-      "version": "1.3.3",
->>>>>>> 615f63b (adding multiplayer functionality)
-=======
-      "version": "1.3.3",
->>>>>>> 3e29349 (implement new multiplayer functionality)
-=======
-      "version": "1.3.2",
->>>>>>> 6d95923 (add ending sound for level 1)
       "depth": 0,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.multiplayer.center": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
       "version": "1.0.1",
-=======
-      "version": "1.0.0",
->>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
-=======
-      "version": "1.0.1",
->>>>>>> 6154507 (improve logic and materials)
-=======
-      "version": "1.0.1",
->>>>>>> 615f63b (adding multiplayer functionality)
-=======
-      "version": "1.0.1",
->>>>>>> 3e29349 (implement new multiplayer functionality)
-=======
-      "version": "1.0.1",
->>>>>>> 6d95923 (add ending sound for level 1)
       "depth": 0,
       "source": "builtin",
       "dependencies": {
         "com.unity.modules.uielements": "1.0.0"
       }
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 6154507 (improve logic and materials)
-=======
->>>>>>> 615f63b (adding multiplayer functionality)
-=======
->>>>>>> 3e29349 (implement new multiplayer functionality)
     "com.unity.multiplayer.playmode": {
       "version": "2.0.1",
       "depth": 0,
@@ -343,8 +140,6 @@
       },
       "url": "https://packages.unity.com"
     },
-<<<<<<< HEAD
-=======
     "com.unity.multiplayer.tools": {
       "version": "2.2.8",
       "depth": 0,
@@ -360,7 +155,6 @@
       },
       "url": "https://packages.unity.com"
     },
->>>>>>> 3e29349 (implement new multiplayer functionality)
     "com.unity.netcode.gameobjects": {
       "version": "2.9.2",
       "depth": 0,
@@ -373,44 +167,11 @@
     },
     "com.unity.nuget.mono-cecil": {
       "version": "1.11.6",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    "com.unity.nuget.mono-cecil": {
-      "version": "1.11.5",
->>>>>>> master
-=======
-    "com.unity.nuget.mono-cecil": {
-      "version": "1.11.5",
->>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
-=======
->>>>>>> 6154507 (improve logic and materials)
-=======
->>>>>>> 615f63b (adding multiplayer functionality)
-=======
->>>>>>> 3e29349 (implement new multiplayer functionality)
-=======
-    "com.unity.nuget.mono-cecil": {
-      "version": "1.11.5",
->>>>>>> 6d95923 (add ending sound for level 1)
       "depth": 0,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 6154507 (improve logic and materials)
-=======
->>>>>>> 615f63b (adding multiplayer functionality)
-=======
->>>>>>> 3e29349 (implement new multiplayer functionality)
     "com.unity.nuget.newtonsoft-json": {
       "version": "3.2.2",
       "depth": 1,
@@ -418,32 +179,6 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> master
-=======
->>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
-=======
->>>>>>> 6d95923 (add ending sound for level 1)
-    "com.unity.package-validation-suite": {
-      "version": "0.22.0-preview",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.nuget.mono-cecil": "0.1.6-preview.2"
-      },
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.render-pipelines.core": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "version": "17.3.0",
-=======
-      "version": "17.2.0",
->>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
-=======
     "com.unity.package-validation-suite": {
       "version": "file:com.unity.package-validation-suite",
       "depth": 0,
@@ -452,14 +187,6 @@
         "com.unity.nuget.mono-cecil": "0.1.6-preview.2"
       }
     },
-    "com.unity.render-pipelines.core": {
-      "version": "17.3.0",
->>>>>>> 6154507 (improve logic and materials)
-=======
-    "com.unity.render-pipelines.core": {
-      "version": "17.3.0",
->>>>>>> 615f63b (adding multiplayer functionality)
-=======
     "com.unity.profiling.core": {
       "version": "1.0.3",
       "depth": 1,
@@ -467,12 +194,21 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.purchasing": {
+      "version": "4.14.2",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.services.core": "1.12.5",
+        "com.unity.modules.androidjni": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.render-pipelines.core": {
       "version": "17.3.0",
->>>>>>> 3e29349 (implement new multiplayer functionality)
-=======
-      "version": "17.3.0",
->>>>>>> 6d95923 (add ending sound for level 1)
       "depth": 0,
       "source": "builtin",
       "dependencies": {
@@ -482,19 +218,6 @@
         "com.unity.collections": "2.4.3",
         "com.unity.modules.physics": "1.0.0",
         "com.unity.modules.terrain": "1.0.0",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 6154507 (improve logic and materials)
-=======
->>>>>>> 615f63b (adding multiplayer functionality)
-=======
->>>>>>> 3e29349 (implement new multiplayer functionality)
-=======
->>>>>>> 6d95923 (add ending sound for level 1)
         "com.unity.modules.jsonserialize": "1.0.0"
       }
     },
@@ -505,31 +228,6 @@
       "dependencies": {
         "com.unity.render-pipelines.core": "17.3.0",
         "com.unity.shadergraph": "17.3.0",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-        "com.unity.modules.jsonserialize": "1.0.0",
-        "com.unity.rendering.light-transport": "1.0.1"
-      }
-    },
-    "com.unity.render-pipelines.universal": {
-      "version": "17.2.0",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {
-        "com.unity.render-pipelines.core": "17.2.0",
-        "com.unity.shadergraph": "17.2.0",
->>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
-=======
->>>>>>> 6154507 (improve logic and materials)
-=======
->>>>>>> 615f63b (adding multiplayer functionality)
-=======
->>>>>>> 3e29349 (implement new multiplayer functionality)
-=======
->>>>>>> 6d95923 (add ending sound for level 1)
         "com.unity.render-pipelines.universal-config": "17.0.3"
       }
     },
@@ -541,101 +239,41 @@
         "com.unity.render-pipelines.core": "17.0.3"
       }
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     "com.unity.searcher": {
       "version": "4.9.4",
       "depth": 0,
-=======
-=======
->>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
-=======
->>>>>>> 6d95923 (add ending sound for level 1)
-    "com.unity.rendering.light-transport": {
-      "version": "1.0.1",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {
-        "com.unity.collections": "2.2.0",
-        "com.unity.mathematics": "1.2.4",
-        "com.unity.modules.terrain": "1.0.0"
-      }
-    },
-    "com.unity.searcher": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "version": "4.9.4",
-      "depth": 1,
->>>>>>> master
-=======
-      "version": "4.9.3",
-      "depth": 1,
->>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
-=======
-    "com.unity.searcher": {
-      "version": "4.9.4",
-      "depth": 0,
->>>>>>> 6154507 (improve logic and materials)
-=======
-    "com.unity.searcher": {
-      "version": "4.9.4",
-      "depth": 0,
->>>>>>> 615f63b (adding multiplayer functionality)
-=======
-    "com.unity.searcher": {
-      "version": "4.9.4",
-      "depth": 0,
->>>>>>> 3e29349 (implement new multiplayer functionality)
-=======
-      "version": "4.9.4",
-      "depth": 1,
->>>>>>> 6d95923 (add ending sound for level 1)
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.services.analytics": {
+      "version": "6.2.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.services.core": "1.12.4",
+        "com.unity.modules.jsonserialize": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.services.core": {
+      "version": "1.16.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.androidjni": "1.0.0",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.modules.unitywebrequest": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.shadergraph": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 6154507 (improve logic and materials)
-=======
->>>>>>> 615f63b (adding multiplayer functionality)
-=======
->>>>>>> 3e29349 (implement new multiplayer functionality)
-=======
->>>>>>> 6d95923 (add ending sound for level 1)
       "version": "17.3.0",
       "depth": 0,
       "source": "builtin",
       "dependencies": {
         "com.unity.render-pipelines.core": "17.3.0",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-      "version": "17.2.0",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {
-        "com.unity.render-pipelines.core": "17.2.0",
->>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
-=======
->>>>>>> 6154507 (improve logic and materials)
-=======
->>>>>>> 615f63b (adding multiplayer functionality)
-=======
->>>>>>> 3e29349 (implement new multiplayer functionality)
-=======
->>>>>>> 6d95923 (add ending sound for level 1)
         "com.unity.searcher": "4.9.3"
       }
     },
@@ -660,31 +298,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.timeline": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
       "version": "1.8.10",
-=======
-      "version": "1.8.9",
->>>>>>> master
-=======
-      "version": "1.8.9",
->>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
-=======
-      "version": "1.8.10",
->>>>>>> 6154507 (improve logic and materials)
-=======
-      "version": "1.8.10",
->>>>>>> 615f63b (adding multiplayer functionality)
-=======
-      "version": "1.8.10",
->>>>>>> 3e29349 (implement new multiplayer functionality)
-=======
-      "version": "1.8.9",
->>>>>>> 6d95923 (add ending sound for level 1)
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -695,18 +309,6 @@
       },
       "url": "https://packages.unity.com"
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 6154507 (improve logic and materials)
-=======
->>>>>>> 615f63b (adding multiplayer functionality)
-=======
->>>>>>> 3e29349 (implement new multiplayer functionality)
     "com.unity.transport": {
       "version": "2.6.0",
       "depth": 1,
@@ -718,21 +320,6 @@
       },
       "url": "https://packages.unity.com"
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> master
-=======
->>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
-=======
->>>>>>> 6154507 (improve logic and materials)
-=======
->>>>>>> 615f63b (adding multiplayer functionality)
-=======
->>>>>>> 3e29349 (implement new multiplayer functionality)
-=======
->>>>>>> 6d95923 (add ending sound for level 1)
     "com.unity.ugui": {
       "version": "2.0.0",
       "depth": 0,
@@ -743,36 +330,22 @@
       }
     },
     "com.unity.visualscripting": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
       "version": "1.9.9",
-=======
-      "version": "1.9.8",
->>>>>>> master
-=======
-      "version": "1.9.8",
->>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
-=======
-      "version": "1.9.9",
->>>>>>> 6154507 (improve logic and materials)
-=======
-      "version": "1.9.9",
->>>>>>> 615f63b (adding multiplayer functionality)
-=======
-      "version": "1.9.9",
->>>>>>> 3e29349 (implement new multiplayer functionality)
-=======
-      "version": "1.9.8",
->>>>>>> 6d95923 (add ending sound for level 1)
       "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.ugui": "1.0.0",
         "com.unity.modules.jsonserialize": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.xr.legacyinputhelpers": {
+      "version": "2.1.13",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.vr": "1.0.0",
+        "com.unity.modules.xr": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
@@ -782,18 +355,6 @@
       "source": "builtin",
       "dependencies": {}
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 6154507 (improve logic and materials)
-=======
->>>>>>> 615f63b (adding multiplayer functionality)
-=======
->>>>>>> 3e29349 (implement new multiplayer functionality)
     "com.unity.modules.adaptiveperformance": {
       "version": "1.0.0",
       "depth": 0,
@@ -802,21 +363,6 @@
         "com.unity.modules.subsystems": "1.0.0"
       }
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> master
-=======
->>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
-=======
->>>>>>> 6154507 (improve logic and materials)
-=======
->>>>>>> 615f63b (adding multiplayer functionality)
-=======
->>>>>>> 3e29349 (implement new multiplayer functionality)
-=======
->>>>>>> 6d95923 (add ending sound for level 1)
     "com.unity.modules.ai": {
       "version": "1.0.0",
       "depth": 0,
@@ -1024,18 +570,6 @@
         "com.unity.modules.imageconversion": "1.0.0"
       }
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 6154507 (improve logic and materials)
-=======
->>>>>>> 615f63b (adding multiplayer functionality)
-=======
->>>>>>> 3e29349 (implement new multiplayer functionality)
     "com.unity.modules.vectorgraphics": {
       "version": "1.0.0",
       "depth": 0,
@@ -1046,21 +580,6 @@
         "com.unity.modules.imgui": "1.0.0"
       }
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> master
-=======
->>>>>>> 8bf44c4 (added textures, edited style, added scripts for the lvl 1)
-=======
->>>>>>> 6154507 (improve logic and materials)
-=======
->>>>>>> 615f63b (adding multiplayer functionality)
-=======
->>>>>>> 3e29349 (implement new multiplayer functionality)
-=======
->>>>>>> 6d95923 (add ending sound for level 1)
     "com.unity.modules.vehicles": {
       "version": "1.0.0",
       "depth": 0,

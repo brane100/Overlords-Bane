@@ -13,24 +13,14 @@ MonoBehaviour:
   m_Name: DefaultNetworkPrefabs
   m_EditorClassIdentifier: Unity.Netcode.Runtime::Unity.Netcode.NetworkPrefabsList
   IsDefault: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
-  List: []
-=======
-=======
->>>>>>> 3e29349 (implement new multiplayer functionality)
   List:
-  - Override: 0
-    Prefab: {fileID: 7505778153682192958, guid: 8b33aa7866b9863429edb76999f6d59b, type: 3}
-    SourcePrefabToOverride: {fileID: 0}
-    SourceHashToOverride: 0
-    OverridingTargetPrefab: {fileID: 0}
-<<<<<<< HEAD
->>>>>>> 615f63b (adding multiplayer functionality)
-=======
   - Override: 0
     Prefab: {fileID: 5537587813936326076, guid: 075c18fc3f5ebec418df55deacbb672c, type: 3}
     SourcePrefabToOverride: {fileID: 0}
     SourceHashToOverride: 0
     OverridingTargetPrefab: {fileID: 0}
->>>>>>> 3e29349 (implement new multiplayer functionality)
+  - Override: 0
+    Prefab: {fileID: 7505778153682192958, guid: 8b33aa7866b9863429edb76999f6d59b, type: 3}
+    SourcePrefabToOverride: {fileID: 0}
+    SourceHashToOverride: 0
+    OverridingTargetPrefab: {fileID: 0}

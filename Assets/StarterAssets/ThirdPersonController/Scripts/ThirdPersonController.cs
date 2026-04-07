@@ -1,20 +1,7 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-﻿ using UnityEngine;
-=======
-﻿using UnityEngine;
+using UnityEngine;
 using Unity.Netcode;
 using Cinemachine;
->>>>>>> 615f63b (adding multiplayer functionality)
-=======
-﻿using UnityEngine;
-using Unity.Netcode;
-using Cinemachine;
->>>>>>> 3e29349 (implement new multiplayer functionality)
-=======
-﻿ using UnityEngine;
->>>>>>> 6d95923 (add ending sound for level 1)
+
 #if ENABLE_INPUT_SYSTEM 
 using UnityEngine.InputSystem;
 #endif
@@ -28,19 +15,8 @@ namespace StarterAssets
 #if ENABLE_INPUT_SYSTEM 
     [RequireComponent(typeof(PlayerInput))]
 #endif
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public class ThirdPersonController : MonoBehaviour
-=======
+
     public class ThirdPersonController : NetworkBehaviour
->>>>>>> 615f63b (adding multiplayer functionality)
-=======
-    public class ThirdPersonController : NetworkBehaviour
->>>>>>> 3e29349 (implement new multiplayer functionality)
-=======
-    public class ThirdPersonController : MonoBehaviour
->>>>>>> 6d95923 (add ending sound for level 1)
     {
         [Header("Player")]
         [Tooltip("Move speed of the character in m/s")]
@@ -145,19 +121,7 @@ namespace StarterAssets
 #if ENABLE_INPUT_SYSTEM
                 return _playerInput.currentControlScheme == "KeyboardMouse";
 #else
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 				return false;
-=======
-                return false;
->>>>>>> 615f63b (adding multiplayer functionality)
-=======
-                return false;
->>>>>>> 3e29349 (implement new multiplayer functionality)
-=======
-				return false;
->>>>>>> 6d95923 (add ending sound for level 1)
 #endif
             }
         }
@@ -172,11 +136,6 @@ namespace StarterAssets
             }
         }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 6d95923 (add ending sound for level 1)
         private void Start()
         {
             _cinemachineTargetYaw = CinemachineCameraTarget.transform.rotation.eulerAngles.y;
@@ -188,10 +147,15 @@ namespace StarterAssets
             _playerInput = GetComponent<PlayerInput>();
 #else
 			Debug.LogError( "Starter Assets package is missing dependencies. Please use Tools/Starter Assets/Reinstall Dependencies to fix it");
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 3e29349 (implement new multiplayer functionality)
+#endif
+
+            AssignAnimationIDs();
+
+            // reset our timeouts on start
+            _jumpTimeoutDelta = JumpTimeout;
+            _fallTimeoutDelta = FallTimeout;
+        }
+        
         public override void OnNetworkSpawn()
         {
             _cinemachineTargetYaw = CinemachineCameraTarget.transform.rotation.eulerAngles.y;
@@ -203,12 +167,6 @@ namespace StarterAssets
             _playerInput = GetComponent<PlayerInput>();
 #else
             Debug.LogError("Starter Assets package is missing dependencies. Please use Tools/Starter Assets/Reinstall Dependencies to fix it");
-<<<<<<< HEAD
->>>>>>> 615f63b (adding multiplayer functionality)
-=======
->>>>>>> 3e29349 (implement new multiplayer functionality)
-=======
->>>>>>> 6d95923 (add ending sound for level 1)
 #endif
 
             AssignAnimationIDs();
@@ -216,12 +174,6 @@ namespace StarterAssets
             // reset our timeouts on start
             _jumpTimeoutDelta = JumpTimeout;
             _fallTimeoutDelta = FallTimeout;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 3e29349 (implement new multiplayer functionality)
 
             if (!IsOwner)
             {
@@ -230,36 +182,13 @@ namespace StarterAssets
             }
         }
 
-        private void Start()
-        {
-            
-<<<<<<< HEAD
->>>>>>> 615f63b (adding multiplayer functionality)
-=======
->>>>>>> 3e29349 (implement new multiplayer functionality)
-=======
->>>>>>> 6d95923 (add ending sound for level 1)
-        }
-
         private void Update()
         {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 3e29349 (implement new multiplayer functionality)
             if (!IsOwner)
             {
                 return;
             }
 
-<<<<<<< HEAD
->>>>>>> 615f63b (adding multiplayer functionality)
-=======
->>>>>>> 3e29349 (implement new multiplayer functionality)
-=======
->>>>>>> 6d95923 (add ending sound for level 1)
             _hasAnimator = TryGetComponent(out _animator);
 
             JumpAndGravity();
