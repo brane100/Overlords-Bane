@@ -1,6 +1,6 @@
 using UnityEngine;
 using Unity.Netcode;
-using Cinemachine;
+using Unity.Cinemachine;
 
 #if ENABLE_INPUT_SYSTEM 
 using UnityEngine.InputSystem;
@@ -184,10 +184,10 @@ namespace StarterAssets
 
         private void Update()
         {
-            if (!IsOwner)
-            {
-                return;
-            }
+            // if (!IsOwner)
+            // {
+            //     return;
+            // }
 
             _hasAnimator = TryGetComponent(out _animator);
 
