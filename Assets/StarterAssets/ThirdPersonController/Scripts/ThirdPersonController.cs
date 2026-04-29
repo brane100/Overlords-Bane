@@ -381,6 +381,15 @@ namespace StarterAssets
             {
                 _verticalVelocity += Gravity * Time.deltaTime;
             }
+
+            // Kill upward velocity ONLY when actively rising into a wall (anti-climb)
+            // Does not touch the initial jump or grounded state.
+            if (!Grounded
+                && _verticalVelocity > 0f
+                && (_controller.collisionFlags & CollisionFlags.Above) != 0)
+            {
+                _verticalVelocity = 0f;
+            }
         }
 
         private static float ClampAngle(float lfAngle, float lfMin, float lfMax)
