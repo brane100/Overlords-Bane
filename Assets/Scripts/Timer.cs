@@ -5,7 +5,7 @@ public class Timer : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI timerText;
     [Header("Remaining Time (seconds)")]
-    [SerializeField] float _remainingTime;
+    [SerializeField] float _remainingTime = 180f;
 
     // Update is called once per frame
     void Update()

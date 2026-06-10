@@ -95,6 +95,9 @@ namespace StarterAssets
         private float _jumpTimeoutDelta;
         private float _fallTimeoutDelta;
 
+        // step offset is disabled while airborne so the controller can't catch on wall ledges mid-jump
+        private float _defaultStepOffset;
+
         // animation IDs
         private int _animIDSpeed;
         private int _animIDGrounded;
@@ -142,6 +145,7 @@ namespace StarterAssets
             
             _hasAnimator = TryGetComponent(out _animator);
             _controller = GetComponent<CharacterController>();
+            _defaultStepOffset = _controller.stepOffset;
             _input = GetComponent<StarterAssetsInputs>();
 #if ENABLE_INPUT_SYSTEM 
             _playerInput = GetComponent<PlayerInput>();
@@ -162,6 +166,7 @@ namespace StarterAssets
 
             _hasAnimator = TryGetComponent(out _animator);
             _controller = GetComponent<CharacterController>();
+            _defaultStepOffset = _controller.stepOffset;
             _input = GetComponent<StarterAssetsInputs>();
 #if ENABLE_INPUT_SYSTEM
             _playerInput = GetComponent<PlayerInput>();
@@ -216,7 +221,10 @@ namespace StarterAssets
             Vector3 spherePosition = new Vector3(transform.position.x, transform.position.y - GroundedOffset,
                 transform.position.z);
             Grounded = Physics.CheckSphere(spherePosition, GroundedRadius, GroundLayers,
-                QueryTriggerInteraction.Ignore);
+                QueryTriggerInteraction.Ignore) || _controller.isGrounded;
+
+            // disable step offset while airborne so the controller can't catch on wall ledges mid-jump
+            _controller.stepOffset = Grounded ? _defaultStepOffset : 0f;
 
             // update animator if using character
             if (_hasAnimator)
@@ -370,6 +378,13 @@ namespace StarterAssets
                     {
                         _animator.SetBool(_animIDFreeFall, true);
                     }
+                }
+
+                // once descending, the jump is over — let the animator leave the jump state
+                // even if the controller is pressed against a wall
+                if (_hasAnimator && _verticalVelocity <= 0.0f)
+                {
+                    _animator.SetBool(_animIDJump, false);
                 }
 
                 // if we are not grounded, do not jump
