@@ -73,14 +73,23 @@ public static class BuildMainMenu
         else esGO.AddComponent<StandaloneInputModule>();
         _log.AppendLine("Input module: " + (ism != null ? "InputSystemUIInputModule" : "StandaloneInputModule"));
 
-        // ---- Background ----
-        var bg = NewImage("Background", canvasRT);
-        StretchFull(bg.rectTransform);
-        bg.sprite = AssetDatabase.LoadAssetAtPath<Sprite>("Assets/Art/UI/MainMenuBG.png");
+        // ---- Background (cover-fit: fills screen, crops overflow, top-biased) ----
+        var bgHolderGO = new GameObject("BackgroundHolder", typeof(RectTransform), typeof(RectMask2D));
+        bgHolderGO.transform.SetParent(canvasRT, false);
+        StretchFull(bgHolderGO.GetComponent<RectTransform>());
+
+        var bgSprite = AssetDatabase.LoadAssetAtPath<Sprite>("Assets/Art/UI/MainMenuBG.png");
+        var bg = NewImage("Background", bgHolderGO.transform);
+        SetAnchors(bg.rectTransform, 0.5f, 0.5f, 0.5f, 0.5f, 0.5f, 0.5f);
+        bg.sprite = bgSprite;
         bg.type = Image.Type.Simple;
-        bg.preserveAspect = false;
+        bg.preserveAspect = false; // BackgroundCoverFit governs aspect; RectMask2D crops overflow
         bg.color = new Color32(255, 255, 255, 235);
         bg.raycastTarget = false;
+        var cover = bg.gameObject.AddComponent<BackgroundCoverFit>();
+        cover.aspectRatio = bgSprite != null ? bgSprite.rect.width / bgSprite.rect.height : 500f / 1024f;
+        cover.verticalAlign = 1f;   // 1 = top -> apex/top glow under the title
+        cover.horizontalAlign = 0.5f;
 
         // ---- ScrimTop ----
         var scrimTop = NewImage("ScrimTop", canvasRT);
