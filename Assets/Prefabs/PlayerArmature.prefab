@@ -1782,6 +1782,7 @@ GameObject:
   - component: {fileID: 7740663872574331212}
   - component: {fileID: 6727341380841072895}
   - component: {fileID: -1408623687468694621}
+  - component: {fileID: 9033441307901750168}
   m_Layer: 8
   m_Name: PlayerArmature
   m_TagString: Player
@@ -1866,7 +1867,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Netcode.Runtime::Unity.Netcode.NetworkObject
-  GlobalObjectIdHash: 3639477223
+  GlobalObjectIdHash: 3099843786
   InScenePlacedSourceGlobalObjectIdHash: 3639477223
   DeferredDespawnTick: 0
   Ownership: 1
@@ -2144,6 +2145,26 @@ MonoBehaviour:
       Synchronize: 1
       ParameterType: 1
   AnimatorParametersExpanded: 0
+--- !u!114 &9033441307901750168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7505778153682192958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3196419304c9c3043bdc5179d8daaec1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
+  maxHealth: 100
+  currentHealth: 100
+  respawnPoint: {fileID: 0}
+  outOfBoundsY: -5
+  fallDamage: 25
+  useHorizontalBounds: 0
+  boundsMin: {x: 0, y: 0}
+  boundsMax: {x: 0, y: 0}
 --- !u!1 &7632167979426477430
 GameObject:
   m_ObjectHideFlags: 0

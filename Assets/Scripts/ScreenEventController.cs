@@ -34,7 +34,7 @@ public class ScreenEventController : MonoBehaviour
             playerInput = GetComponent<PlayerInput>();
 
         if (playerInput == null)
-            Debug.LogError("[ScreenEvent] PlayerInput is NULL");
+            Debug.LogWarning("[ScreenEvent] PlayerInput not assigned (will be located at runtime once the player spawns)");
 
         if (audioSource == null)
             Debug.LogError("[ScreenEvent] AudioSource is NULL");
@@ -54,6 +54,65 @@ public class ScreenEventController : MonoBehaviour
         }
 
         StartCoroutine(EventRoutine());
+    }
+
+    /// <summary>
+    /// The Overlord (Axiom) exit sequence: lock input → fade to FULL black →
+    /// play the supplied voice clip → grant bonus time → fade out → invoke onComplete.
+    /// </summary>
+    public void RunOverlordSequence(AudioClip clip, Timer timer, float bonusTime, System.Action onComplete)
+    {
+        if (running)
+        {
+            Debug.Log("[ScreenEvent] Overlord sequence already running, ignoring");
+            return;
+        }
+        StartCoroutine(OverlordRoutine(clip, timer, bonusTime, onComplete));
+    }
+
+    IEnumerator OverlordRoutine(AudioClip clip, Timer timer, float bonusTime, System.Action onComplete)
+    {
+        running = true;
+        Debug.Log("[ScreenEvent] Overlord sequence START");
+
+        // 1. Lock input (resolve the runtime-spawned player if not pre-assigned)
+        var pi = playerInput != null ? playerInput : FindFirstObjectByType<PlayerInput>();
+        if (pi != null) pi.DeactivateInput();
+
+        // 2. Fade to full black
+        yield return Fade(fadeOverlay != null ? fadeOverlay.alpha : 0f, 1f);
+
+        // 3. Play the Axiom voice
+        float waitTime = 1f;
+        if (audioSource != null && clip != null)
+        {
+            audioSource.PlayOneShot(clip);
+            waitTime = clip.length;
+        }
+        else if (audioSource != null && audioSource.clip != null)
+        {
+            audioSource.Play();
+            waitTime = audioSource.clip.length;
+        }
+
+        // 4. Grant bonus time while the screen is black
+        if (timer != null && bonusTime > 0f)
+        {
+            timer.AddTime(bonusTime);
+            Debug.Log("[ScreenEvent] Granted " + bonusTime + "s bonus time");
+        }
+
+        // 5. Hold on black for the voice line
+        yield return new WaitForSecondsRealtime(waitTime);
+
+        // 6. Fade back out and restore input
+        yield return Fade(fadeOverlay != null ? fadeOverlay.alpha : 1f, 0f);
+        if (pi != null) pi.ActivateInput();
+
+        running = false;
+        Debug.Log("[ScreenEvent] Overlord sequence END");
+
+        onComplete?.Invoke();
     }
 
     IEnumerator EventRoutine()
