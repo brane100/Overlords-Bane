@@ -1,16 +1,10 @@
 using UnityEngine;
 
 /// <summary>
-/// A 3D Axiom eyeball embedded in a maze wall:
-///   • Root sphere = glowing sclera (emissive, lit so it reads as a 3D ball)
-///   • "Iris" child = iris/pupil quad that rotates across the eyeball surface to
-///     track the player (clamped to the outward-facing hemisphere so it never
-///     slides into the wall)
-///   • "Light" child = point light bleeding violet onto the corridor
-///   • Scale pulse + vertical blink; sclera glow + light brighten as the player nears.
-///
-/// The eyeball is a sphere, so it is visible and clearly 3D from every angle —
-/// only the iris tracks, the body stays fixed in the wall.
+/// A 3D Axiom eyeball embedded in a maze wall.
+/// The entire sphere rotates to track the player (clamped so it cannot spin
+/// into the wall), so the iris quad child naturally stays front-and-center.
+/// Glow, pulse, and blink remain as before.
 /// </summary>
 [RequireComponent(typeof(MeshRenderer))]
 public class EyeWatcher : MonoBehaviour
@@ -21,19 +15,17 @@ public class EyeWatcher : MonoBehaviour
 
     [Header("Glow")]
     [SerializeField] Color accent = new Color(0.545f, 0.361f, 0.965f); // #8B5CF6
-    [Tooltip("Sclera emission multiplier at max distance.")]
     [SerializeField] float minEmission = 0.5f;
-    [Tooltip("Sclera emission multiplier when player is within approachRadius.")]
     [SerializeField] float maxEmission = 1.5f;
     [SerializeField] float approachRadius = 16f;
     [SerializeField] float lightMin = 0.4f;
     [SerializeField] float lightMax = 1.8f;
 
-    [Header("Iris tracking")]
-    [Tooltip("How far the iris sits from the eyeball centre (local units).")]
-    [SerializeField] float irisDistance = 0.52f;
-    [Tooltip("Minimum forward dot — keeps the iris on the visible hemisphere.")]
-    [SerializeField] float minForwardDot = 0.35f;
+    [Header("Eyeball rotation")]
+    [Tooltip("Smooth tracking speed — higher feels snappier.")]
+    [SerializeField] float trackSpeed = 3f;
+    [Tooltip("Max degrees the eyeball can rotate from its resting wall-face direction.")]
+    [SerializeField] float maxTrackAngle = 50f;
 
     [Header("Pulse / Blink")]
     [SerializeField] float baseScale = 1.0f;
@@ -47,10 +39,9 @@ public class EyeWatcher : MonoBehaviour
 
     MeshRenderer _sclera;
     MaterialPropertyBlock _mpb;
-    Transform _iris;
     Light _light;
 
-    Vector3 _outwardLocal = Vector3.forward; // eyeball's outward axis in local space
+    Quaternion _initialRotation;
     float _phase, _nextBlinkAt, _blinkTimer = -1f;
 
     void Awake()
@@ -58,11 +49,10 @@ public class EyeWatcher : MonoBehaviour
         _sclera = GetComponent<MeshRenderer>();
         _mpb = new MaterialPropertyBlock();
 
-        var irisT = transform.Find("Iris");
-        _iris = irisT;
         var lightT = transform.Find("Light");
         _light = lightT != null ? lightT.GetComponent<Light>() : null;
 
+        _initialRotation = transform.rotation;
         _phase = Random.value * Mathf.PI * 2f;
         ScheduleNextBlink();
     }
@@ -73,7 +63,7 @@ public class EyeWatcher : MonoBehaviour
     {
         if (target == null) AcquireTarget();
 
-        TrackIris();
+        RotateEyeball();
         float blinkY = UpdateBlink();
         ApplyPulse(blinkY);
         ApplyGlow();
@@ -85,24 +75,20 @@ public class EyeWatcher : MonoBehaviour
         if (go != null) target = go.transform;
     }
 
-    // Rotate the iris across the eyeball surface toward the player, clamped so it
-    // never slides past the outward hemisphere into the wall.
-    void TrackIris()
+    void RotateEyeball()
     {
-        if (_iris == null || target == null) return;
+        if (target == null) return;
 
-        // Direction to player in the eyeball's local space.
-        Vector3 dl = transform.InverseTransformPoint(target.position).normalized;
+        Vector3 toTarget = target.position - transform.position;
+        if (toTarget.sqrMagnitude < 0.001f) return;
 
-        // Clamp to forward (+Z local = outward) hemisphere.
-        if (dl.z < minForwardDot)
-        {
-            dl.z = minForwardDot;
-            dl = dl.normalized;
-        }
+        Quaternion desired = Quaternion.LookRotation(toTarget, Vector3.up);
 
-        _iris.localPosition = dl * irisDistance;
-        _iris.localRotation = Quaternion.LookRotation(dl, Vector3.up);
+        // Clamp to maxTrackAngle from the resting wall-face pose so the sphere
+        // never visually sinks into the terrain.
+        Quaternion clamped = Quaternion.RotateTowards(_initialRotation, desired, maxTrackAngle);
+
+        transform.rotation = Quaternion.Slerp(transform.rotation, clamped, Time.deltaTime * trackSpeed);
     }
 
     float UpdateBlink()
