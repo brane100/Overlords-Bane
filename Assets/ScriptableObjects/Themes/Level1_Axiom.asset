@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2beb0422a4b94124aab5bfc6a5659282, type: 3}
+  m_Name: Level1_Axiom
+  m_EditorClassIdentifier: Assembly-CSharp::LevelTheme
+  floorColor: {r: 0.039215688, g: 0.047058824, b: 0.078431375, a: 1}
+  wallColor: {r: 0.15294118, g: 0.1882353, b: 0.32941177, a: 1}
+  ceilingColor: {r: 0.019607844, g: 0.023529412, b: 0.043137256, a: 1}
+  ambientColor: {r: 0.101960786, g: 0.09411765, b: 0.1882353, a: 1}
+  fogColor: {r: 0.039215688, g: 0.047058824, b: 0.078431375, a: 1}
+  fogStart: 6
+  fogEnd: 45
+  directionalLightColor: {r: 0.54509807, g: 0.36078432, b: 0.9647059, a: 1}
+  directionalLightIntensity: 0.9
+  wallMaterialTint: {r: 0.16470589, g: 0.101960786, b: 0.2901961, a: 1}
+  sigilAccentColor: {r: 0.54509807, g: 0.36078432, b: 0.9647059, a: 1}

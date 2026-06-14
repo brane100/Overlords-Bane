@@ -1867,7 +1867,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Netcode.Runtime::Unity.Netcode.NetworkObject
-  GlobalObjectIdHash: 3099843786
+  GlobalObjectIdHash: 3639477223
   InScenePlacedSourceGlobalObjectIdHash: 3639477223
   DeferredDespawnTick: 0
   Ownership: 1
@@ -2728,7 +2728,7 @@ Camera:
   m_ShutterSpeed: 0.005
   m_Aperture: 16
   m_FocusDistance: 10
-  m_FocalLength: 50
+  m_FocalLength: 20.78461
   m_BladeCount: 5
   m_Curvature: {x: 2, y: 11}
   m_BarrelClipping: 0.25
@@ -2742,7 +2742,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.01
-  far clip plane: 30
+  far clip plane: 80
   field of view: 60.000004
   orthographic: 0
   orthographic size: 5
