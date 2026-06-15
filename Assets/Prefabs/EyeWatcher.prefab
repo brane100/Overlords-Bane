@@ -133,9 +133,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f71b04e57cbaa474490606cf63b00290, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EyeZap
-  range: 10
-  damagePerSecond: 8
+  range: 5
+  damagePerSecond: 2
   targetHeightOffset: 1
+  zapMinInterval: 0.12
+  zapMaxInterval: 0.45
+  boltFlashDuration: 0.08
   segments: 12
   jitter: 0.35
   startWidth: 0.09
