@@ -8,6 +8,12 @@ public class AutoStartHost : MonoBehaviour
     [SerializeField] private Transform spawnPoint;
 
 
+    private void Awake()
+    {
+        Application.targetFrameRate = 60;
+        QualitySettings.vSyncCount = 1;
+    }
+
     private void Start()
     {
         StartCoroutine(StartHostWhenReady());

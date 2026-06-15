@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4222946223603109171}
   - component: {fileID: 4949861594850474274}
   - component: {fileID: 5604638801336199317}
+  - component: {fileID: 7480005965630288539}
   m_Layer: 0
   m_Name: EyeWatcher
   m_TagString: Untagged
@@ -112,14 +113,38 @@ MonoBehaviour:
   approachRadius: 16
   lightMin: 0.4
   lightMax: 1.8
-  irisDistance: 0.52
-  minForwardDot: 0.35
+  trackSpeed: 3
+  maxTrackAngle: 50
   baseScale: 1
   pulseAmplitude: 0.05
   pulseSpeed: 2
   blinkMinInterval: 3
   blinkMaxInterval: 8
   blinkDuration: 0.09
+--- !u!114 &7480005965630288539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 896157309298299501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f71b04e57cbaa474490606cf63b00290, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EyeZap
+  range: 10
+  damagePerSecond: 8
+  targetHeightOffset: 1
+  segments: 12
+  jitter: 0.35
+  startWidth: 0.09
+  endWidth: 0.035
+  emissionIntensity: 3
+  zapClip: {fileID: 8300000, guid: 8512769451d6d6844b4b6ce13b8b094f, type: 3}
+  zapVolume: 0.7
+  soundMinDistance: 3
+  soundMaxDistance: 14
 --- !u!1 &1851288960356405410
 GameObject:
   m_ObjectHideFlags: 0

@@ -58,6 +58,7 @@ public class EyeWatcher : MonoBehaviour
     }
 
     public void SetAccent(Color c) => accent = c;
+    public Color Accent => accent;
 
     void Update()
     {
