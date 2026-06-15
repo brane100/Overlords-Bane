@@ -119,13 +119,17 @@ public class LevelTransitionManager : MonoBehaviour
         if (!_hasCarry) return;
 
         // Timer exists in the scene immediately — apply now.
+        // Every level starts with 3 minutes base plus whatever time was carried in.
+        const float LevelBaseTime = 180f;
         if (_hasTime)
         {
             var timer = FindFirstObjectByType<Timer>();
             if (timer != null)
             {
-                timer.SetRemaining(_carriedTime);
-                Debug.Log("[LevelTransition] Applied carried time " + _carriedTime.ToString("0.0") + "s");
+                float startTime = LevelBaseTime + _carriedTime;
+                timer.SetRemaining(startTime);
+                Debug.Log("[LevelTransition] Applied time " + LevelBaseTime + "s base + " +
+                          _carriedTime.ToString("0.0") + "s carry = " + startTime.ToString("0.0") + "s");
             }
         }
 

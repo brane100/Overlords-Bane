@@ -1338,12 +1338,12 @@ Transform:
   m_GameObject: {fileID: 6138604890960016867}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.4, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4556623988464833659}
-  m_Father: {fileID: 4500872098318839369}
+  m_Father: {fileID: 4503788090553590282}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6154647620903403667
 GameObject:
@@ -1803,7 +1803,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 8009167621157062485}
   - {fileID: 1973165939631436257}
   - {fileID: 3578237098723400665}
   m_Father: {fileID: 0}
@@ -1894,7 +1893,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowTopMostFoldoutHeaderGroup: 1
   MoveSpeed: 2
-  SprintSpeed: 5.335
+  SprintSpeed: 10
   RotationSmoothTime: 0.12
   SpeedChangeRate: 10
   LandingAudioClip: {fileID: 8300000, guid: ff697d3070687ce4583faa0561a145a2, type: 3}
@@ -2197,6 +2196,7 @@ Transform:
   - {fileID: 8593235924234555}
   - {fileID: 3721386561747017722}
   - {fileID: 4091501694090072049}
+  - {fileID: 8009167621157062485}
   m_Father: {fileID: 7406441489598864727}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7875573379105158344
@@ -2704,7 +2704,7 @@ Transform:
   m_GameObject: {fileID: 8714539249328640470}
   serializedVersion: 2
   m_LocalRotation: {x: -0.000000080551516, y: -0.0000001836741, z: -1.4795228e-14, w: 1}
-  m_LocalPosition: {x: 0, y: -0, z: -2}
+  m_LocalPosition: {x: 0, y: 0.045, z: 0.0966}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

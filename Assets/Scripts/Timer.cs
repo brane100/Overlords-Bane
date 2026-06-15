@@ -22,6 +22,7 @@ public class Timer : MonoBehaviour
     public event Action OnTimeUp;
 
     bool _running = true;
+    bool _frozen;  // set by StopTimer; prevents AddTime from restarting a deliberately-halted timer
 
     void Awake()
     {
@@ -70,11 +71,20 @@ public class Timer : MonoBehaviour
         OnTimeUp?.Invoke();
     }
 
+    /// <summary>Halts the countdown immediately and prevents AddTime from restarting it.
+    /// Used by ExitTrigger so no time drains during the cinematic or scene load.</summary>
+    public void StopTimer()
+    {
+        _running = false;
+        _frozen = true;
+    }
+
     /// <summary>Grants bonus seconds (e.g. the Overlord exit reward). Re-arms the
     /// countdown if it had expired, and keeps TotalTime >= remaining so Normalized stays valid.</summary>
     public void AddTime(float seconds)
     {
         if (seconds <= 0f) return;
+        if (_frozen) return;
         _remainingTime += seconds;
         if (_remainingTime > 0f)
         {
@@ -85,9 +95,11 @@ public class Timer : MonoBehaviour
         UpdateLabel();
     }
 
-    /// <summary>Overwrites the remaining time (used when carrying time across a level transition).</summary>
+    /// <summary>Overwrites the remaining time (used when carrying time across a level transition).
+    /// Clears the frozen flag so the new level's timer runs freely.</summary>
     public void SetRemaining(float seconds)
     {
+        _frozen = false;
         _remainingTime = Mathf.Max(0f, seconds);
         if (_remainingTime > TotalTime) TotalTime = _remainingTime;
         IsUp = _remainingTime <= 0f;

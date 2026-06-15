@@ -48,6 +48,9 @@ public class ExitTrigger : MonoBehaviour
 
         if (timer == null) timer = FindFirstObjectByType<Timer>();
 
+        // Freeze the countdown immediately — no time drains during the cinematic or scene load.
+        timer?.StopTimer();
+
         if (screenEvent != null)
         {
             screenEvent.RunOverlordSequence(axiomClip, timer, bonusTime, FireComplete);
